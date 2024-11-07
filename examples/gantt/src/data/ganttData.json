@@ -1,0 +1,2713 @@
+﻿{
+	"campaigns": [
+		{
+			"campaignName": "Campaign-1",
+			"recipeName": "0.5L Bag Recipe",
+			"startDate": "2023-01-01T08:00:00Z",
+			"endDate": "2023-01-03T14:26:40Z",
+			"batches": [
+				{
+					"batchName": "Campaign-1-0",
+					"batchId": 168,
+					"startDate": "2023-01-01T08:00:00Z",
+					"endDate": "2023-01-01T23:06:40Z",
+					"branches": [
+						{
+							"branchName": "My Branch 500mL",
+							"startDate": "2023-01-01T08:00:00Z",
+							"endDate": "2023-01-01T23:06:40Z",
+							"sections": [
+								{
+									"sectionName": "My Section 500mL",
+									"startDate": "2023-01-01T08:00:00Z",
+									"endDate": "2023-01-01T23:06:40Z",
+									"procEntries": [
+										{
+											"procedureId": 559,
+											"procedureName": "Prepare Solution 500mL",
+											"startDate": "2023-01-01T08:00:00Z",
+											"endDate": "2023-01-01T12:00:00Z",
+											"mainEquipmentFacility": "MT-1",
+											"mainEquipment": "MT-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2054,
+													"operationName": "Charge Water 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T08:00:00Z",
+													"endDate": "2023-01-01T08:30:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2055,
+													"operationName": "Charge Sodium Chloride 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T08:30:00Z",
+													"endDate": "2023-01-01T08:45:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2056,
+													"operationName": "Charge API 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T08:45:00Z",
+													"endDate": "2023-01-01T09:00:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2057,
+													"operationName": "Mix Thoroughly 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T09:00:00Z",
+													"endDate": "2023-01-01T10:00:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2058,
+													"operationName": "Transfer to Storage Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T10:00:00Z",
+													"endDate": "2023-01-01T10:30:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2059,
+													"operationName": "Clean Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T10:30:00Z",
+													"endDate": "2023-01-01T12:00:00Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										},
+										{
+											"procedureId": 560,
+											"procedureName": "Store 500mL",
+											"startDate": "2023-01-01T10:00:00Z",
+											"endDate": "2023-01-01T23:06:40Z",
+											"mainEquipmentFacility": "ST-103",
+											"mainEquipment": "ST-103",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Store 500mL",
+													"operationId": 2060,
+													"operationName": "Receive from Mixing Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-01T10:00:00Z",
+													"endDate": "2023-01-01T10:30:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Store 500mL",
+													"operationId": 2061,
+													"operationName": "Feed Filler 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-01T10:30:00Z",
+													"endDate": "2023-01-01T21:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Store 500mL",
+													"operationId": 2064,
+													"operationName": "Clean Tank Store 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-01T21:36:40Z",
+													"endDate": "2023-01-01T23:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										},
+										{
+											"procedureId": 561,
+											"procedureName": "Fill 500mL",
+											"startDate": "2023-01-01T10:30:00Z",
+											"endDate": "2023-01-01T23:06:40Z",
+											"mainEquipmentFacility": "Filler-3",
+											"mainEquipment": "Filler-3",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Fill 500mL",
+													"operationId": 2062,
+													"operationName": "Fill Bags 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-3",
+													"startDate": "2023-01-01T10:30:00Z",
+													"endDate": "2023-01-01T21:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-0",
+													"procedureName": "Fill 500mL",
+													"operationId": 2063,
+													"operationName": "Clean Filler 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-3",
+													"startDate": "2023-01-01T21:36:40Z",
+													"endDate": "2023-01-01T23:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-1-1",
+					"batchId": 169,
+					"startDate": "2023-01-01T21:06:40Z",
+					"endDate": "2023-01-02T12:13:20Z",
+					"branches": [
+						{
+							"branchName": "My Branch 500mL",
+							"startDate": "2023-01-01T21:06:40Z",
+							"endDate": "2023-01-02T12:13:20Z",
+							"sections": [
+								{
+									"sectionName": "My Section 500mL",
+									"startDate": "2023-01-01T21:06:40Z",
+									"endDate": "2023-01-02T12:13:20Z",
+									"procEntries": [
+										{
+											"procedureId": 562,
+											"procedureName": "Prepare Solution 500mL",
+											"startDate": "2023-01-01T21:06:40Z",
+											"endDate": "2023-01-02T01:06:40Z",
+											"mainEquipmentFacility": "MT-1",
+											"mainEquipment": "MT-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2065,
+													"operationName": "Charge Water 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T21:06:40Z",
+													"endDate": "2023-01-01T21:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2066,
+													"operationName": "Charge Sodium Chloride 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T21:36:40Z",
+													"endDate": "2023-01-01T21:51:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2067,
+													"operationName": "Charge API 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T21:51:40Z",
+													"endDate": "2023-01-01T22:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2068,
+													"operationName": "Mix Thoroughly 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T22:06:40Z",
+													"endDate": "2023-01-01T23:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2069,
+													"operationName": "Transfer to Storage Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T23:06:40Z",
+													"endDate": "2023-01-01T23:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2070,
+													"operationName": "Clean Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T23:36:40Z",
+													"endDate": "2023-01-02T01:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										},
+										{
+											"procedureId": 563,
+											"procedureName": "Store 500mL",
+											"startDate": "2023-01-01T23:06:40Z",
+											"endDate": "2023-01-02T12:13:20Z",
+											"mainEquipmentFacility": "ST-103",
+											"mainEquipment": "ST-103",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Store 500mL",
+													"operationId": 2071,
+													"operationName": "Receive from Mixing Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-01T23:06:40Z",
+													"endDate": "2023-01-01T23:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Store 500mL",
+													"operationId": 2072,
+													"operationName": "Feed Filler 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-01T23:36:40Z",
+													"endDate": "2023-01-02T10:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Store 500mL",
+													"operationId": 2075,
+													"operationName": "Clean Tank Store 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-02T10:43:20Z",
+													"endDate": "2023-01-02T12:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										},
+										{
+											"procedureId": 564,
+											"procedureName": "Fill 500mL",
+											"startDate": "2023-01-01T23:36:40Z",
+											"endDate": "2023-01-02T12:13:20Z",
+											"mainEquipmentFacility": "Filler-3",
+											"mainEquipment": "Filler-3",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Fill 500mL",
+													"operationId": 2073,
+													"operationName": "Fill Bags 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-3",
+													"startDate": "2023-01-01T23:36:40Z",
+													"endDate": "2023-01-02T10:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-1",
+													"procedureName": "Fill 500mL",
+													"operationId": 2074,
+													"operationName": "Clean Filler 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-3",
+													"startDate": "2023-01-02T10:43:20Z",
+													"endDate": "2023-01-02T12:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-1-2",
+					"batchId": 170,
+					"startDate": "2023-01-02T10:13:20Z",
+					"endDate": "2023-01-03T01:20:00Z",
+					"branches": [
+						{
+							"branchName": "My Branch 500mL",
+							"startDate": "2023-01-02T10:13:20Z",
+							"endDate": "2023-01-03T01:20:00Z",
+							"sections": [
+								{
+									"sectionName": "My Section 500mL",
+									"startDate": "2023-01-02T10:13:20Z",
+									"endDate": "2023-01-03T01:20:00Z",
+									"procEntries": [
+										{
+											"procedureId": 565,
+											"procedureName": "Prepare Solution 500mL",
+											"startDate": "2023-01-02T10:13:20Z",
+											"endDate": "2023-01-02T14:13:20Z",
+											"mainEquipmentFacility": "MT-1",
+											"mainEquipment": "MT-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2076,
+													"operationName": "Charge Water 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T10:13:20Z",
+													"endDate": "2023-01-02T10:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2077,
+													"operationName": "Charge Sodium Chloride 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T10:43:20Z",
+													"endDate": "2023-01-02T10:58:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2078,
+													"operationName": "Charge API 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T10:58:20Z",
+													"endDate": "2023-01-02T11:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2079,
+													"operationName": "Mix Thoroughly 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T11:13:20Z",
+													"endDate": "2023-01-02T12:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2080,
+													"operationName": "Transfer to Storage Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T12:13:20Z",
+													"endDate": "2023-01-02T12:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2081,
+													"operationName": "Clean Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T12:43:20Z",
+													"endDate": "2023-01-02T14:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										},
+										{
+											"procedureId": 566,
+											"procedureName": "Store 500mL",
+											"startDate": "2023-01-02T12:13:20Z",
+											"endDate": "2023-01-03T01:20:00Z",
+											"mainEquipmentFacility": "ST-103",
+											"mainEquipment": "ST-103",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Store 500mL",
+													"operationId": 2082,
+													"operationName": "Receive from Mixing Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-02T12:13:20Z",
+													"endDate": "2023-01-02T12:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Store 500mL",
+													"operationId": 2083,
+													"operationName": "Feed Filler 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-02T12:43:20Z",
+													"endDate": "2023-01-02T23:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Store 500mL",
+													"operationId": 2086,
+													"operationName": "Clean Tank Store 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-02T23:50:00Z",
+													"endDate": "2023-01-03T01:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										},
+										{
+											"procedureId": 567,
+											"procedureName": "Fill 500mL",
+											"startDate": "2023-01-02T12:43:20Z",
+											"endDate": "2023-01-03T01:20:00Z",
+											"mainEquipmentFacility": "Filler-3",
+											"mainEquipment": "Filler-3",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Fill 500mL",
+													"operationId": 2084,
+													"operationName": "Fill Bags 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-3",
+													"startDate": "2023-01-02T12:43:20Z",
+													"endDate": "2023-01-02T23:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-2",
+													"procedureName": "Fill 500mL",
+													"operationId": 2085,
+													"operationName": "Clean Filler 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-3",
+													"startDate": "2023-01-02T23:50:00Z",
+													"endDate": "2023-01-03T01:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-1-3",
+					"batchId": 171,
+					"startDate": "2023-01-02T23:20:00Z",
+					"endDate": "2023-01-03T14:26:40Z",
+					"branches": [
+						{
+							"branchName": "My Branch 500mL",
+							"startDate": "2023-01-02T23:20:00Z",
+							"endDate": "2023-01-03T14:26:40Z",
+							"sections": [
+								{
+									"sectionName": "My Section 500mL",
+									"startDate": "2023-01-02T23:20:00Z",
+									"endDate": "2023-01-03T14:26:40Z",
+									"procEntries": [
+										{
+											"procedureId": 568,
+											"procedureName": "Prepare Solution 500mL",
+											"startDate": "2023-01-02T23:20:00Z",
+											"endDate": "2023-01-03T03:20:00Z",
+											"mainEquipmentFacility": "MT-1",
+											"mainEquipment": "MT-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2087,
+													"operationName": "Charge Water 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T23:20:00Z",
+													"endDate": "2023-01-02T23:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2088,
+													"operationName": "Charge Sodium Chloride 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T23:50:00Z",
+													"endDate": "2023-01-03T00:05:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2089,
+													"operationName": "Charge API 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-03T00:05:00Z",
+													"endDate": "2023-01-03T00:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2090,
+													"operationName": "Mix Thoroughly 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-03T00:20:00Z",
+													"endDate": "2023-01-03T01:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2091,
+													"operationName": "Transfer to Storage Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-03T01:20:00Z",
+													"endDate": "2023-01-03T01:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Prepare Solution 500mL",
+													"operationId": 2092,
+													"operationName": "Clean Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-03T01:50:00Z",
+													"endDate": "2023-01-03T03:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										},
+										{
+											"procedureId": 569,
+											"procedureName": "Store 500mL",
+											"startDate": "2023-01-03T01:20:00Z",
+											"endDate": "2023-01-03T14:26:40Z",
+											"mainEquipmentFacility": "ST-103",
+											"mainEquipment": "ST-103",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Store 500mL",
+													"operationId": 2093,
+													"operationName": "Receive from Mixing Tank 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-03T01:20:00Z",
+													"endDate": "2023-01-03T01:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Store 500mL",
+													"operationId": 2094,
+													"operationName": "Feed Filler 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-03T01:50:00Z",
+													"endDate": "2023-01-03T12:56:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Store 500mL",
+													"operationId": 2097,
+													"operationName": "Clean Tank Store 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-103",
+													"startDate": "2023-01-03T12:56:40Z",
+													"endDate": "2023-01-03T14:26:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										},
+										{
+											"procedureId": 570,
+											"procedureName": "Fill 500mL",
+											"startDate": "2023-01-03T01:50:00Z",
+											"endDate": "2023-01-03T14:26:40Z",
+											"mainEquipmentFacility": "Filler-3",
+											"mainEquipment": "Filler-3",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Fill 500mL",
+													"operationId": 2095,
+													"operationName": "Fill Bags 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-3",
+													"startDate": "2023-01-03T01:50:00Z",
+													"endDate": "2023-01-03T12:56:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												},
+												{
+													"campaignName": "Campaign-1",
+													"batchName": "Campaign-1-3",
+													"procedureName": "Fill 500mL",
+													"operationId": 2096,
+													"operationName": "Clean Filler 500mL",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-3",
+													"startDate": "2023-01-03T12:56:40Z",
+													"endDate": "2023-01-03T14:26:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section 500mL"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"campaignName": "Campaign-2",
+			"recipeName": "1L Bag Recipe",
+			"startDate": "2023-01-01T08:00:00Z",
+			"endDate": "2023-01-02T23:16:40Z",
+			"batches": [
+				{
+					"batchName": "Campaign-2-0",
+					"batchId": 172,
+					"startDate": "2023-01-01T08:00:00Z",
+					"endDate": "2023-01-01T17:33:20Z",
+					"branches": [
+						{
+							"branchName": "My Branch",
+							"startDate": "2023-01-01T08:00:00Z",
+							"endDate": "2023-01-01T17:33:20Z",
+							"sections": [
+								{
+									"sectionName": "My Section",
+									"startDate": "2023-01-01T08:00:00Z",
+									"endDate": "2023-01-01T17:33:20Z",
+									"procEntries": [
+										{
+											"procedureId": 571,
+											"procedureName": "Prepare Solution",
+											"startDate": "2023-01-01T08:00:00Z",
+											"endDate": "2023-01-01T13:30:00Z",
+											"mainEquipmentFacility": "MT-2",
+											"mainEquipment": "MT-2",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Prepare Solution",
+													"operationId": 2098,
+													"operationName": "Charge Water",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T08:00:00Z",
+													"endDate": "2023-01-01T08:30:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Prepare Solution",
+													"operationId": 2099,
+													"operationName": "Charge Sodium Chloride",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T08:30:00Z",
+													"endDate": "2023-01-01T08:45:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Prepare Solution",
+													"operationId": 2100,
+													"operationName": "Charge API",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T08:45:00Z",
+													"endDate": "2023-01-01T09:00:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Prepare Solution",
+													"operationId": 2101,
+													"operationName": "Mix Thoroughly",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T09:00:00Z",
+													"endDate": "2023-01-01T10:00:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Prepare Solution",
+													"operationId": 2102,
+													"operationName": "Transfer to Storage Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T10:00:00Z",
+													"endDate": "2023-01-01T10:30:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Prepare Solution",
+													"operationId": 2103,
+													"operationName": "Clean Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T12:00:00Z",
+													"endDate": "2023-01-01T13:30:00Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 572,
+											"procedureName": "Store",
+											"startDate": "2023-01-01T10:00:00Z",
+											"endDate": "2023-01-01T17:33:20Z",
+											"mainEquipmentFacility": "ST-101",
+											"mainEquipment": "ST-101",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Store",
+													"operationId": 2104,
+													"operationName": "Receive from Mixing Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-01T10:00:00Z",
+													"endDate": "2023-01-01T10:30:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Store",
+													"operationId": 2105,
+													"operationName": "Feed Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-01T10:30:00Z",
+													"endDate": "2023-01-01T16:03:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Store",
+													"operationId": 2108,
+													"operationName": "Clean Tank Store",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-01T16:03:20Z",
+													"endDate": "2023-01-01T17:33:20Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 573,
+											"procedureName": "Fill",
+											"startDate": "2023-01-01T10:30:00Z",
+											"endDate": "2023-01-01T17:33:20Z",
+											"mainEquipmentFacility": "Filler-1",
+											"mainEquipment": "Filler-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Fill",
+													"operationId": 2106,
+													"operationName": "Fill Bags",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-1",
+													"startDate": "2023-01-01T10:30:00Z",
+													"endDate": "2023-01-01T16:03:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-0",
+													"procedureName": "Fill",
+													"operationId": 2107,
+													"operationName": "Clean Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-1",
+													"startDate": "2023-01-01T16:03:20Z",
+													"endDate": "2023-01-01T17:33:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-2-1",
+					"batchId": 173,
+					"startDate": "2023-01-01T11:46:40Z",
+					"endDate": "2023-01-01T21:20:00Z",
+					"branches": [
+						{
+							"branchName": "My Branch",
+							"startDate": "2023-01-01T11:46:40Z",
+							"endDate": "2023-01-01T21:20:00Z",
+							"sections": [
+								{
+									"sectionName": "My Section",
+									"startDate": "2023-01-01T11:46:40Z",
+									"endDate": "2023-01-01T21:20:00Z",
+									"procEntries": [
+										{
+											"procedureId": 574,
+											"procedureName": "Prepare Solution",
+											"startDate": "2023-01-01T11:46:40Z",
+											"endDate": "2023-01-01T15:46:40Z",
+											"mainEquipmentFacility": "MT-3",
+											"mainEquipment": "MT-3",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Prepare Solution",
+													"operationId": 2109,
+													"operationName": "Charge Water",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-01T11:46:40Z",
+													"endDate": "2023-01-01T12:16:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Prepare Solution",
+													"operationId": 2110,
+													"operationName": "Charge Sodium Chloride",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-01T12:16:40Z",
+													"endDate": "2023-01-01T12:31:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Prepare Solution",
+													"operationId": 2111,
+													"operationName": "Charge API",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-01T12:31:40Z",
+													"endDate": "2023-01-01T12:46:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Prepare Solution",
+													"operationId": 2112,
+													"operationName": "Mix Thoroughly",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-01T12:46:40Z",
+													"endDate": "2023-01-01T13:46:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Prepare Solution",
+													"operationId": 2113,
+													"operationName": "Transfer to Storage Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-01T13:46:40Z",
+													"endDate": "2023-01-01T14:16:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Prepare Solution",
+													"operationId": 2114,
+													"operationName": "Clean Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-01T14:16:40Z",
+													"endDate": "2023-01-01T15:46:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 575,
+											"procedureName": "Store",
+											"startDate": "2023-01-01T13:46:40Z",
+											"endDate": "2023-01-01T21:20:00Z",
+											"mainEquipmentFacility": "ST-102",
+											"mainEquipment": "ST-102",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Store",
+													"operationId": 2115,
+													"operationName": "Receive from Mixing Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-01T13:46:40Z",
+													"endDate": "2023-01-01T14:16:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Store",
+													"operationId": 2116,
+													"operationName": "Feed Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-01T14:16:40Z",
+													"endDate": "2023-01-01T19:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Store",
+													"operationId": 2119,
+													"operationName": "Clean Tank Store",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-01T19:50:00Z",
+													"endDate": "2023-01-01T21:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 576,
+											"procedureName": "Fill",
+											"startDate": "2023-01-01T14:16:40Z",
+											"endDate": "2023-01-01T21:20:00Z",
+											"mainEquipmentFacility": "Filler-2",
+											"mainEquipment": "Filler-2",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Fill",
+													"operationId": 2117,
+													"operationName": "Fill Bags",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-2",
+													"startDate": "2023-01-01T14:16:40Z",
+													"endDate": "2023-01-01T19:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-1",
+													"procedureName": "Fill",
+													"operationId": 2118,
+													"operationName": "Clean Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-2",
+													"startDate": "2023-01-01T19:50:00Z",
+													"endDate": "2023-01-01T21:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-2-2",
+					"batchId": 174,
+					"startDate": "2023-01-01T15:33:20Z",
+					"endDate": "2023-01-02T02:36:40Z",
+					"branches": [
+						{
+							"branchName": "My Branch",
+							"startDate": "2023-01-01T15:33:20Z",
+							"endDate": "2023-01-02T02:36:40Z",
+							"sections": [
+								{
+									"sectionName": "My Section",
+									"startDate": "2023-01-01T15:33:20Z",
+									"endDate": "2023-01-02T02:36:40Z",
+									"procEntries": [
+										{
+											"procedureId": 577,
+											"procedureName": "Prepare Solution",
+											"startDate": "2023-01-01T15:33:20Z",
+											"endDate": "2023-01-01T19:33:20Z",
+											"mainEquipmentFacility": "MT-1",
+											"mainEquipment": "MT-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Prepare Solution",
+													"operationId": 2120,
+													"operationName": "Charge Water",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T15:33:20Z",
+													"endDate": "2023-01-01T16:03:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Prepare Solution",
+													"operationId": 2121,
+													"operationName": "Charge Sodium Chloride",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T16:03:20Z",
+													"endDate": "2023-01-01T16:18:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Prepare Solution",
+													"operationId": 2122,
+													"operationName": "Charge API",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T16:18:20Z",
+													"endDate": "2023-01-01T16:33:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Prepare Solution",
+													"operationId": 2123,
+													"operationName": "Mix Thoroughly",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T16:33:20Z",
+													"endDate": "2023-01-01T17:33:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Prepare Solution",
+													"operationId": 2124,
+													"operationName": "Transfer to Storage Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T17:33:20Z",
+													"endDate": "2023-01-01T18:03:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Prepare Solution",
+													"operationId": 2125,
+													"operationName": "Clean Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-01T18:03:20Z",
+													"endDate": "2023-01-01T19:33:20Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 578,
+											"procedureName": "Store",
+											"startDate": "2023-01-01T17:33:20Z",
+											"endDate": "2023-01-02T02:36:40Z",
+											"mainEquipmentFacility": "ST-101",
+											"mainEquipment": "ST-101",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Store",
+													"operationId": 2126,
+													"operationName": "Receive from Mixing Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-01T17:33:20Z",
+													"endDate": "2023-01-01T18:03:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Store",
+													"operationId": 2127,
+													"operationName": "Feed Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-01T18:03:20Z",
+													"endDate": "2023-01-01T23:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Store",
+													"operationId": 2130,
+													"operationName": "Clean Tank Store",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-02T01:06:40Z",
+													"endDate": "2023-01-02T02:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 579,
+											"procedureName": "Fill",
+											"startDate": "2023-01-01T18:03:20Z",
+											"endDate": "2023-01-02T02:36:40Z",
+											"mainEquipmentFacility": "Filler-1",
+											"mainEquipment": "Filler-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Fill",
+													"operationId": 2128,
+													"operationName": "Fill Bags",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-1",
+													"startDate": "2023-01-01T18:03:20Z",
+													"endDate": "2023-01-01T23:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-2",
+													"procedureName": "Fill",
+													"operationId": 2129,
+													"operationName": "Clean Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-1",
+													"startDate": "2023-01-02T01:06:40Z",
+													"endDate": "2023-01-02T02:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-2-3",
+					"batchId": 175,
+					"startDate": "2023-01-01T19:20:00Z",
+					"endDate": "2023-01-02T05:36:40Z",
+					"branches": [
+						{
+							"branchName": "My Branch",
+							"startDate": "2023-01-01T19:20:00Z",
+							"endDate": "2023-01-02T05:36:40Z",
+							"sections": [
+								{
+									"sectionName": "My Section",
+									"startDate": "2023-01-01T19:20:00Z",
+									"endDate": "2023-01-02T05:36:40Z",
+									"procEntries": [
+										{
+											"procedureId": 580,
+											"procedureName": "Prepare Solution",
+											"startDate": "2023-01-01T19:20:00Z",
+											"endDate": "2023-01-02T04:06:40Z",
+											"mainEquipmentFacility": "MT-2",
+											"mainEquipment": "MT-2",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Prepare Solution",
+													"operationId": 2131,
+													"operationName": "Charge Water",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T19:20:00Z",
+													"endDate": "2023-01-01T19:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Prepare Solution",
+													"operationId": 2132,
+													"operationName": "Charge Sodium Chloride",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T19:50:00Z",
+													"endDate": "2023-01-01T20:05:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Prepare Solution",
+													"operationId": 2133,
+													"operationName": "Charge API",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T20:05:00Z",
+													"endDate": "2023-01-01T20:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Prepare Solution",
+													"operationId": 2134,
+													"operationName": "Mix Thoroughly",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T20:20:00Z",
+													"endDate": "2023-01-01T21:20:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Prepare Solution",
+													"operationId": 2135,
+													"operationName": "Transfer to Storage Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-01T21:20:00Z",
+													"endDate": "2023-01-01T21:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Prepare Solution",
+													"operationId": 2136,
+													"operationName": "Clean Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-02T02:36:40Z",
+													"endDate": "2023-01-02T04:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 581,
+											"procedureName": "Store",
+											"startDate": "2023-01-01T21:20:00Z",
+											"endDate": "2023-01-02T05:36:40Z",
+											"mainEquipmentFacility": "ST-102",
+											"mainEquipment": "ST-102",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Store",
+													"operationId": 2137,
+													"operationName": "Receive from Mixing Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-01T21:20:00Z",
+													"endDate": "2023-01-01T21:50:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Store",
+													"operationId": 2138,
+													"operationName": "Feed Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-01T21:50:00Z",
+													"endDate": "2023-01-02T03:23:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Store",
+													"operationId": 2141,
+													"operationName": "Clean Tank Store",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-02T04:06:40Z",
+													"endDate": "2023-01-02T05:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 582,
+											"procedureName": "Fill",
+											"startDate": "2023-01-01T21:50:00Z",
+											"endDate": "2023-01-02T05:36:40Z",
+											"mainEquipmentFacility": "Filler-2",
+											"mainEquipment": "Filler-2",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Fill",
+													"operationId": 2139,
+													"operationName": "Fill Bags",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-2",
+													"startDate": "2023-01-01T21:50:00Z",
+													"endDate": "2023-01-02T03:23:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-3",
+													"procedureName": "Fill",
+													"operationId": 2140,
+													"operationName": "Clean Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-2",
+													"startDate": "2023-01-02T04:06:40Z",
+													"endDate": "2023-01-02T05:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-2-4",
+					"batchId": 176,
+					"startDate": "2023-01-02T00:36:40Z",
+					"endDate": "2023-01-02T10:10:00Z",
+					"branches": [
+						{
+							"branchName": "My Branch",
+							"startDate": "2023-01-02T00:36:40Z",
+							"endDate": "2023-01-02T10:10:00Z",
+							"sections": [
+								{
+									"sectionName": "My Section",
+									"startDate": "2023-01-02T00:36:40Z",
+									"endDate": "2023-01-02T10:10:00Z",
+									"procEntries": [
+										{
+											"procedureId": 583,
+											"procedureName": "Prepare Solution",
+											"startDate": "2023-01-02T00:36:40Z",
+											"endDate": "2023-01-02T07:06:40Z",
+											"mainEquipmentFacility": "MT-3",
+											"mainEquipment": "MT-3",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Prepare Solution",
+													"operationId": 2142,
+													"operationName": "Charge Water",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T00:36:40Z",
+													"endDate": "2023-01-02T01:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Prepare Solution",
+													"operationId": 2143,
+													"operationName": "Charge Sodium Chloride",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T01:06:40Z",
+													"endDate": "2023-01-02T01:21:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Prepare Solution",
+													"operationId": 2144,
+													"operationName": "Charge API",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T01:21:40Z",
+													"endDate": "2023-01-02T01:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Prepare Solution",
+													"operationId": 2145,
+													"operationName": "Mix Thoroughly",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T01:36:40Z",
+													"endDate": "2023-01-02T02:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Prepare Solution",
+													"operationId": 2146,
+													"operationName": "Transfer to Storage Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T02:36:40Z",
+													"endDate": "2023-01-02T03:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Prepare Solution",
+													"operationId": 2147,
+													"operationName": "Clean Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T05:36:40Z",
+													"endDate": "2023-01-02T07:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 584,
+											"procedureName": "Store",
+											"startDate": "2023-01-02T02:36:40Z",
+											"endDate": "2023-01-02T10:10:00Z",
+											"mainEquipmentFacility": "ST-101",
+											"mainEquipment": "ST-101",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Store",
+													"operationId": 2148,
+													"operationName": "Receive from Mixing Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-02T02:36:40Z",
+													"endDate": "2023-01-02T03:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Store",
+													"operationId": 2149,
+													"operationName": "Feed Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-02T03:06:40Z",
+													"endDate": "2023-01-02T08:40:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Store",
+													"operationId": 2152,
+													"operationName": "Clean Tank Store",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-02T08:40:00Z",
+													"endDate": "2023-01-02T10:10:00Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 585,
+											"procedureName": "Fill",
+											"startDate": "2023-01-02T03:06:40Z",
+											"endDate": "2023-01-02T10:10:00Z",
+											"mainEquipmentFacility": "Filler-1",
+											"mainEquipment": "Filler-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Fill",
+													"operationId": 2150,
+													"operationName": "Fill Bags",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-1",
+													"startDate": "2023-01-02T03:06:40Z",
+													"endDate": "2023-01-02T08:40:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-4",
+													"procedureName": "Fill",
+													"operationId": 2151,
+													"operationName": "Clean Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-1",
+													"startDate": "2023-01-02T08:40:00Z",
+													"endDate": "2023-01-02T10:10:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-2-5",
+					"batchId": 177,
+					"startDate": "2023-01-02T03:36:40Z",
+					"endDate": "2023-01-02T15:43:20Z",
+					"branches": [
+						{
+							"branchName": "My Branch",
+							"startDate": "2023-01-02T03:36:40Z",
+							"endDate": "2023-01-02T15:43:20Z",
+							"sections": [
+								{
+									"sectionName": "My Section",
+									"startDate": "2023-01-02T03:36:40Z",
+									"endDate": "2023-01-02T15:43:20Z",
+									"procEntries": [
+										{
+											"procedureId": 586,
+											"procedureName": "Prepare Solution",
+											"startDate": "2023-01-02T03:36:40Z",
+											"endDate": "2023-01-02T08:36:40Z",
+											"mainEquipmentFacility": "MT-1",
+											"mainEquipment": "MT-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Prepare Solution",
+													"operationId": 2153,
+													"operationName": "Charge Water",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T03:36:40Z",
+													"endDate": "2023-01-02T04:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Prepare Solution",
+													"operationId": 2154,
+													"operationName": "Charge Sodium Chloride",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T04:06:40Z",
+													"endDate": "2023-01-02T04:21:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Prepare Solution",
+													"operationId": 2155,
+													"operationName": "Charge API",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T04:21:40Z",
+													"endDate": "2023-01-02T04:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Prepare Solution",
+													"operationId": 2156,
+													"operationName": "Mix Thoroughly",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T04:36:40Z",
+													"endDate": "2023-01-02T05:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Prepare Solution",
+													"operationId": 2157,
+													"operationName": "Transfer to Storage Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T05:36:40Z",
+													"endDate": "2023-01-02T06:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Prepare Solution",
+													"operationId": 2158,
+													"operationName": "Clean Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-1",
+													"startDate": "2023-01-02T07:06:40Z",
+													"endDate": "2023-01-02T08:36:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 587,
+											"procedureName": "Store",
+											"startDate": "2023-01-02T05:36:40Z",
+											"endDate": "2023-01-02T15:43:20Z",
+											"mainEquipmentFacility": "ST-102",
+											"mainEquipment": "ST-102",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Store",
+													"operationId": 2159,
+													"operationName": "Receive from Mixing Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-02T05:36:40Z",
+													"endDate": "2023-01-02T06:06:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Store",
+													"operationId": 2160,
+													"operationName": "Feed Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-02T06:06:40Z",
+													"endDate": "2023-01-02T11:40:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Store",
+													"operationId": 2163,
+													"operationName": "Clean Tank Store",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-02T14:13:20Z",
+													"endDate": "2023-01-02T15:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 588,
+											"procedureName": "Fill",
+											"startDate": "2023-01-02T06:06:40Z",
+											"endDate": "2023-01-02T15:43:20Z",
+											"mainEquipmentFacility": "Filler-2",
+											"mainEquipment": "Filler-2",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Fill",
+													"operationId": 2161,
+													"operationName": "Fill Bags",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-2",
+													"startDate": "2023-01-02T06:06:40Z",
+													"endDate": "2023-01-02T11:40:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-5",
+													"procedureName": "Fill",
+													"operationId": 2162,
+													"operationName": "Clean Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-2",
+													"startDate": "2023-01-02T14:13:20Z",
+													"endDate": "2023-01-02T15:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-2-6",
+					"batchId": 178,
+					"startDate": "2023-01-02T08:10:00Z",
+					"endDate": "2023-01-02T18:43:20Z",
+					"branches": [
+						{
+							"branchName": "My Branch",
+							"startDate": "2023-01-02T08:10:00Z",
+							"endDate": "2023-01-02T18:43:20Z",
+							"sections": [
+								{
+									"sectionName": "My Section",
+									"startDate": "2023-01-02T08:10:00Z",
+									"endDate": "2023-01-02T18:43:20Z",
+									"procEntries": [
+										{
+											"procedureId": 589,
+											"procedureName": "Prepare Solution",
+											"startDate": "2023-01-02T08:10:00Z",
+											"endDate": "2023-01-02T17:13:20Z",
+											"mainEquipmentFacility": "MT-2",
+											"mainEquipment": "MT-2",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Prepare Solution",
+													"operationId": 2164,
+													"operationName": "Charge Water",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-02T08:10:00Z",
+													"endDate": "2023-01-02T08:40:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Prepare Solution",
+													"operationId": 2165,
+													"operationName": "Charge Sodium Chloride",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-02T08:40:00Z",
+													"endDate": "2023-01-02T08:55:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Prepare Solution",
+													"operationId": 2166,
+													"operationName": "Charge API",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-02T08:55:00Z",
+													"endDate": "2023-01-02T09:10:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Prepare Solution",
+													"operationId": 2167,
+													"operationName": "Mix Thoroughly",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-02T09:10:00Z",
+													"endDate": "2023-01-02T10:10:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Prepare Solution",
+													"operationId": 2168,
+													"operationName": "Transfer to Storage Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-02T10:10:00Z",
+													"endDate": "2023-01-02T10:40:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Prepare Solution",
+													"operationId": 2169,
+													"operationName": "Clean Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-2",
+													"startDate": "2023-01-02T15:43:20Z",
+													"endDate": "2023-01-02T17:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 590,
+											"procedureName": "Store",
+											"startDate": "2023-01-02T10:10:00Z",
+											"endDate": "2023-01-02T18:43:20Z",
+											"mainEquipmentFacility": "ST-101",
+											"mainEquipment": "ST-101",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Store",
+													"operationId": 2170,
+													"operationName": "Receive from Mixing Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-02T10:10:00Z",
+													"endDate": "2023-01-02T10:40:00Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Store",
+													"operationId": 2171,
+													"operationName": "Feed Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-02T10:40:00Z",
+													"endDate": "2023-01-02T16:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Store",
+													"operationId": 2174,
+													"operationName": "Clean Tank Store",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-101",
+													"startDate": "2023-01-02T17:13:20Z",
+													"endDate": "2023-01-02T18:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 591,
+											"procedureName": "Fill",
+											"startDate": "2023-01-02T10:40:00Z",
+											"endDate": "2023-01-02T18:43:20Z",
+											"mainEquipmentFacility": "Filler-1",
+											"mainEquipment": "Filler-1",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Fill",
+													"operationId": 2172,
+													"operationName": "Fill Bags",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-1",
+													"startDate": "2023-01-02T10:40:00Z",
+													"endDate": "2023-01-02T16:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-6",
+													"procedureName": "Fill",
+													"operationId": 2173,
+													"operationName": "Clean Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-1",
+													"startDate": "2023-01-02T17:13:20Z",
+													"endDate": "2023-01-02T18:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"batchName": "Campaign-2-7",
+					"batchId": 179,
+					"startDate": "2023-01-02T13:43:20Z",
+					"endDate": "2023-01-02T23:16:40Z",
+					"branches": [
+						{
+							"branchName": "My Branch",
+							"startDate": "2023-01-02T13:43:20Z",
+							"endDate": "2023-01-02T23:16:40Z",
+							"sections": [
+								{
+									"sectionName": "My Section",
+									"startDate": "2023-01-02T13:43:20Z",
+									"endDate": "2023-01-02T23:16:40Z",
+									"procEntries": [
+										{
+											"procedureId": 592,
+											"procedureName": "Prepare Solution",
+											"startDate": "2023-01-02T13:43:20Z",
+											"endDate": "2023-01-02T20:13:20Z",
+											"mainEquipmentFacility": "MT-3",
+											"mainEquipment": "MT-3",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Prepare Solution",
+													"operationId": 2175,
+													"operationName": "Charge Water",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T13:43:20Z",
+													"endDate": "2023-01-02T14:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Prepare Solution",
+													"operationId": 2176,
+													"operationName": "Charge Sodium Chloride",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T14:13:20Z",
+													"endDate": "2023-01-02T14:28:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Prepare Solution",
+													"operationId": 2177,
+													"operationName": "Charge API",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T14:28:20Z",
+													"endDate": "2023-01-02T14:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Prepare Solution",
+													"operationId": 2178,
+													"operationName": "Mix Thoroughly",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T14:43:20Z",
+													"endDate": "2023-01-02T15:43:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Prepare Solution",
+													"operationId": 2179,
+													"operationName": "Transfer to Storage Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T15:43:20Z",
+													"endDate": "2023-01-02T16:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Prepare Solution",
+													"operationId": 2180,
+													"operationName": "Clean Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "MT-3",
+													"startDate": "2023-01-02T18:43:20Z",
+													"endDate": "2023-01-02T20:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 593,
+											"procedureName": "Store",
+											"startDate": "2023-01-02T15:43:20Z",
+											"endDate": "2023-01-02T23:16:40Z",
+											"mainEquipmentFacility": "ST-102",
+											"mainEquipment": "ST-102",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Store",
+													"operationId": 2181,
+													"operationName": "Receive from Mixing Tank",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-02T15:43:20Z",
+													"endDate": "2023-01-02T16:13:20Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Store",
+													"operationId": 2182,
+													"operationName": "Feed Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-02T16:13:20Z",
+													"endDate": "2023-01-02T21:46:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Store",
+													"operationId": 2185,
+													"operationName": "Clean Tank Store",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "ST-102",
+													"startDate": "2023-01-02T21:46:40Z",
+													"endDate": "2023-01-02T23:16:40Z",
+													"staffUses": [],
+													"auxEquipment": [
+														{
+															"facilityName": null,
+															"equipmentName": "CIP-Skid",
+															"suiteName": null,
+															"description": null,
+															"equipmentType": null,
+															"rowsRequired": 1
+														}
+													],
+													"sectionName": "My Section"
+												}
+											]
+										},
+										{
+											"procedureId": 594,
+											"procedureName": "Fill",
+											"startDate": "2023-01-02T16:13:20Z",
+											"endDate": "2023-01-02T23:16:40Z",
+											"mainEquipmentFacility": "Filler-2",
+											"mainEquipment": "Filler-2",
+											"latestPlannedAndTrackedOpEntries": [
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Fill",
+													"operationId": 2183,
+													"operationName": "Fill Bags",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-2",
+													"startDate": "2023-01-02T16:13:20Z",
+													"endDate": "2023-01-02T21:46:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												},
+												{
+													"campaignName": "Campaign-2",
+													"batchName": "Campaign-2-7",
+													"procedureName": "Fill",
+													"operationId": 2184,
+													"operationName": "Clean Filler",
+													"mainEquipmentFacility": "Medical Solutions Plant",
+													"mainEquipment": "Filler-2",
+													"startDate": "2023-01-02T21:46:40Z",
+													"endDate": "2023-01-02T23:16:40Z",
+													"staffUses": [],
+													"auxEquipment": [],
+													"sectionName": "My Section"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"schedulingBoard": {
+		"id": 19,
+		"name": "Scheduling-board-1",
+		"concurrencyToken": 17460
+	}
+}
