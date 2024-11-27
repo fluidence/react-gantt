@@ -1,0 +1,3522 @@
+{
+	"rows": [
+		{
+			"id": 1,
+			"bars": [
+				{
+					"id": 1,
+					"text": "Campaign-1",
+					"type": "Normal",
+					"startDate": "2023-03-21T00:00:00.000Z",
+					"endDate": "2023-03-22T09:06:40.000Z",
+					"barStyle": {
+						"borderWidth": 1,
+						"borderStyle": "solid",
+						"borderColor": "black",
+						"borderRadius": "3px",
+						"backgroundColor": "#25b163"
+					}
+				}
+			],
+			"gridValues": [
+				"Campaign-1",
+				"3/21/2023, 2:00:00 AM",
+				"3/22/2023, 11:06:40 AM",
+				"1 d, 9 h, 6 m"
+			],
+			"childRows": [
+				{
+					"id": 2,
+					"bars": [
+						{
+							"id": 2,
+							"text": "Campaign-1-0",
+							"type": "Normal",
+							"startDate": "2023-03-21T00:00:00.000Z",
+							"endDate": "2023-03-21T09:33:20.000Z",
+							"barStyle": {
+								"borderWidth": 1,
+								"borderStyle": "solid",
+								"borderColor": "black",
+								"borderRadius": "3px",
+								"backgroundColor": "#ff9d31"
+							}
+						}
+					],
+					"gridValues": [
+						"Campaign-1-0",
+						"3/21/2023, 2:00:00 AM",
+						"3/21/2023, 11:33:20 AM",
+						"0 d, 9 h, 33 m"
+					],
+					"childRows": [
+						{
+							"id": 3,
+							"bars": [
+								{
+									"id": 3,
+									"text": "Prepare Solution",
+									"type": "Normal",
+									"startDate": "2023-03-21T00:00:00.000Z",
+									"endDate": "2023-03-21T04:00:00.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Prepare Solution",
+								"3/21/2023, 2:00:00 AM",
+								"3/21/2023, 6:00:00 AM",
+								"0 d, 4 h, 0 m"
+							],
+							"childRows": [
+								{
+									"id": 4,
+									"bars": [
+										{
+											"id": 4,
+											"text": "Charge Water",
+											"type": "Normal",
+											"startDate": "2023-03-21T00:00:00.000Z",
+											"endDate": "2023-03-21T00:30:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Water",
+										"3/21/2023, 2:00:00 AM",
+										"3/21/2023, 2:30:00 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 5,
+									"bars": [
+										{
+											"id": 5,
+											"text": "Charge Sodium Chloride",
+											"type": "Normal",
+											"startDate": "2023-03-21T00:30:00.000Z",
+											"endDate": "2023-03-21T00:45:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Sodium Chloride",
+										"3/21/2023, 2:30:00 AM",
+										"3/21/2023, 2:45:00 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 6,
+									"bars": [
+										{
+											"id": 6,
+											"text": "Charge API",
+											"type": "Normal",
+											"startDate": "2023-03-21T00:45:00.000Z",
+											"endDate": "2023-03-21T01:00:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge API",
+										"3/21/2023, 2:45:00 AM",
+										"3/21/2023, 3:00:00 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 7,
+									"bars": [
+										{
+											"id": 7,
+											"text": "Mix Thoroughly",
+											"type": "Normal",
+											"startDate": "2023-03-21T01:00:00.000Z",
+											"endDate": "2023-03-21T02:00:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Mix Thoroughly",
+										"3/21/2023, 3:00:00 AM",
+										"3/21/2023, 4:00:00 AM",
+										"0 d, 1 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 8,
+									"bars": [
+										{
+											"id": 8,
+											"text": "Transfer to Storage Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T02:00:00.000Z",
+											"endDate": "2023-03-21T02:30:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Transfer to Storage Tank",
+										"3/21/2023, 4:00:00 AM",
+										"3/21/2023, 4:30:00 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 9,
+									"bars": [
+										{
+											"id": 9,
+											"text": "Clean Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T02:30:00.000Z",
+											"endDate": "2023-03-21T04:00:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank",
+										"3/21/2023, 4:30:00 AM",
+										"3/21/2023, 6:00:00 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 10,
+							"bars": [
+								{
+									"id": 10,
+									"text": "Store",
+									"type": "Normal",
+									"startDate": "2023-03-21T02:00:00.000Z",
+									"endDate": "2023-03-21T09:33:20.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Store",
+								"3/21/2023, 4:00:00 AM",
+								"3/21/2023, 11:33:20 AM",
+								"0 d, 7 h, 33 m"
+							],
+							"childRows": [
+								{
+									"id": 11,
+									"bars": [
+										{
+											"id": 11,
+											"text": "Receive from Mixing Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T02:00:00.000Z",
+											"endDate": "2023-03-21T02:30:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Receive from Mixing Tank",
+										"3/21/2023, 4:00:00 AM",
+										"3/21/2023, 4:30:00 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 12,
+									"bars": [
+										{
+											"id": 12,
+											"text": "Feed Filler",
+											"type": "Normal",
+											"startDate": "2023-03-21T02:30:00.000Z",
+											"endDate": "2023-03-21T08:03:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Feed Filler",
+										"3/21/2023, 4:30:00 AM",
+										"3/21/2023, 10:03:20 AM",
+										"0 d, 5 h, 33 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 13,
+									"bars": [
+										{
+											"id": 13,
+											"text": "Clean Tank Store",
+											"type": "Normal",
+											"startDate": "2023-03-21T08:03:20.000Z",
+											"endDate": "2023-03-21T09:33:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank Store",
+										"3/21/2023, 10:03:20 AM",
+										"3/21/2023, 11:33:20 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 14,
+							"bars": [
+								{
+									"id": 14,
+									"text": "Fill",
+									"type": "Normal",
+									"startDate": "2023-03-21T02:30:00.000Z",
+									"endDate": "2023-03-21T09:33:20.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Fill",
+								"3/21/2023, 4:30:00 AM",
+								"3/21/2023, 11:33:20 AM",
+								"0 d, 7 h, 3 m"
+							],
+							"childRows": [
+								{
+									"id": 15,
+									"bars": [
+										{
+											"id": 15,
+											"text": "Fill Bags",
+											"type": "Normal",
+											"startDate": "2023-03-21T02:30:00.000Z",
+											"endDate": "2023-03-21T08:03:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Fill Bags",
+										"3/21/2023, 4:30:00 AM",
+										"3/21/2023, 10:03:20 AM",
+										"0 d, 5 h, 33 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 16,
+									"bars": [
+										{
+											"id": 16,
+											"text": "Clean Filler",
+											"type": "Normal",
+											"startDate": "2023-03-21T08:03:20.000Z",
+											"endDate": "2023-03-21T09:33:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Filler",
+										"3/21/2023, 10:03:20 AM",
+										"3/21/2023, 11:33:20 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						}
+					],
+					"rowEntityType": "Batch"
+				},
+				{
+					"id": 17,
+					"bars": [
+						{
+							"id": 17,
+							"text": "Campaign-1-1",
+							"type": "Normal",
+							"startDate": "2023-03-21T03:31:40.000Z",
+							"endDate": "2023-03-22T09:06:40.000Z",
+							"barStyle": {
+								"borderWidth": 1,
+								"borderStyle": "solid",
+								"borderColor": "black",
+								"borderRadius": "3px",
+								"backgroundColor": "#ff9d31"
+							}
+						}
+					],
+					"gridValues": [
+						"Campaign-1-1",
+						"3/21/2023, 5:31:40 AM",
+						"3/22/2023, 11:06:40 AM",
+						"1 d, 5 h, 35 m"
+					],
+					"childRows": [
+						{
+							"id": 18,
+							"bars": [
+								{
+									"id": 18,
+									"text": "Prepare Solution",
+									"type": "Normal",
+									"startDate": "2023-03-21T03:31:40.000Z",
+									"endDate": "2023-03-21T07:31:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Prepare Solution",
+								"3/21/2023, 5:31:40 AM",
+								"3/21/2023, 9:31:40 AM",
+								"0 d, 4 h, 0 m"
+							],
+							"childRows": [
+								{
+									"id": 19,
+									"bars": [
+										{
+											"id": 19,
+											"text": "Charge Water",
+											"type": "Normal",
+											"startDate": "2023-03-21T03:31:40.000Z",
+											"endDate": "2023-03-21T04:01:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Water",
+										"3/21/2023, 5:31:40 AM",
+										"3/21/2023, 6:01:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 20,
+									"bars": [
+										{
+											"id": 20,
+											"text": "Charge Sodium Chloride",
+											"type": "Normal",
+											"startDate": "2023-03-21T04:01:40.000Z",
+											"endDate": "2023-03-21T04:16:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Sodium Chloride",
+										"3/21/2023, 6:01:40 AM",
+										"3/21/2023, 6:16:40 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 21,
+									"bars": [
+										{
+											"id": 21,
+											"text": "Charge API",
+											"type": "Normal",
+											"startDate": "2023-03-21T04:16:40.000Z",
+											"endDate": "2023-03-21T04:31:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge API",
+										"3/21/2023, 6:16:40 AM",
+										"3/21/2023, 6:31:40 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 22,
+									"bars": [
+										{
+											"id": 22,
+											"text": "Mix Thoroughly",
+											"type": "Normal",
+											"startDate": "2023-03-21T04:31:40.000Z",
+											"endDate": "2023-03-21T05:31:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Mix Thoroughly",
+										"3/21/2023, 6:31:40 AM",
+										"3/21/2023, 7:31:40 AM",
+										"0 d, 1 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 23,
+									"bars": [
+										{
+											"id": 23,
+											"text": "Transfer to Storage Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T05:31:40.000Z",
+											"endDate": "2023-03-21T06:01:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Transfer to Storage Tank",
+										"3/21/2023, 7:31:40 AM",
+										"3/21/2023, 8:01:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 24,
+									"bars": [
+										{
+											"id": 24,
+											"text": "Clean Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T06:01:40.000Z",
+											"endDate": "2023-03-21T07:31:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank",
+										"3/21/2023, 8:01:40 AM",
+										"3/21/2023, 9:31:40 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 25,
+							"bars": [
+								{
+									"id": 25,
+									"text": "Store",
+									"type": "Normal",
+									"startDate": "2023-03-21T05:31:40.000Z",
+									"endDate": "2023-03-22T09:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Store",
+								"3/21/2023, 7:31:40 AM",
+								"3/22/2023, 11:06:40 AM",
+								"1 d, 3 h, 35 m"
+							],
+							"childRows": [
+								{
+									"id": 26,
+									"bars": [
+										{
+											"id": 26,
+											"text": "Receive from Mixing Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T05:31:40.000Z",
+											"endDate": "2023-03-21T06:01:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Receive from Mixing Tank",
+										"3/21/2023, 7:31:40 AM",
+										"3/21/2023, 8:01:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 27,
+									"bars": [
+										{
+											"id": 27,
+											"text": "Feed Filler",
+											"type": "Normal",
+											"startDate": "2023-03-21T06:01:40.000Z",
+											"endDate": "2023-03-21T11:35:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Feed Filler",
+										"3/21/2023, 8:01:40 AM",
+										"3/21/2023, 1:35:00 PM",
+										"0 d, 5 h, 33 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 28,
+									"bars": [
+										{
+											"id": 28,
+											"text": "Clean Tank Store",
+											"type": "Normal",
+											"startDate": "2023-03-21T11:35:00.000Z",
+											"endDate": "2023-03-21T13:05:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank Store",
+										"3/21/2023, 1:35:00 PM",
+										"3/21/2023, 3:05:00 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 29,
+									"bars": [
+										{
+											"id": 29,
+											"text": "PostChangeover",
+											"type": "Normal",
+											"startDate": "2023-03-21T21:06:40.000Z",
+											"endDate": "2023-03-22T09:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"PostChangeover",
+										"3/21/2023, 11:06:40 PM",
+										"3/22/2023, 11:06:40 AM",
+										"0 d, 12 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 30,
+							"bars": [
+								{
+									"id": 30,
+									"text": "Fill",
+									"type": "Normal",
+									"startDate": "2023-03-21T06:01:40.000Z",
+									"endDate": "2023-03-21T13:05:00.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Fill",
+								"3/21/2023, 8:01:40 AM",
+								"3/21/2023, 3:05:00 PM",
+								"0 d, 7 h, 3 m"
+							],
+							"childRows": [
+								{
+									"id": 31,
+									"bars": [
+										{
+											"id": 31,
+											"text": "Fill Bags",
+											"type": "Normal",
+											"startDate": "2023-03-21T06:01:40.000Z",
+											"endDate": "2023-03-21T11:35:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Fill Bags",
+										"3/21/2023, 8:01:40 AM",
+										"3/21/2023, 1:35:00 PM",
+										"0 d, 5 h, 33 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 32,
+									"bars": [
+										{
+											"id": 32,
+											"text": "Clean Filler",
+											"type": "Normal",
+											"startDate": "2023-03-21T11:35:00.000Z",
+											"endDate": "2023-03-21T13:05:00.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Filler",
+										"3/21/2023, 1:35:00 PM",
+										"3/21/2023, 3:05:00 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						}
+					],
+					"rowEntityType": "Batch"
+				},
+				{
+					"id": 33,
+					"bars": [
+						{
+							"id": 33,
+							"text": "Campaign-1-2",
+							"type": "Normal",
+							"startDate": "2023-03-21T07:33:20.000Z",
+							"endDate": "2023-03-22T09:06:40.000Z",
+							"barStyle": {
+								"borderWidth": 1,
+								"borderStyle": "solid",
+								"borderColor": "black",
+								"borderRadius": "3px",
+								"backgroundColor": "#ff9d31"
+							}
+						}
+					],
+					"gridValues": [
+						"Campaign-1-2",
+						"3/21/2023, 9:33:20 AM",
+						"3/22/2023, 11:06:40 AM",
+						"1 d, 1 h, 33 m"
+					],
+					"childRows": [
+						{
+							"id": 34,
+							"bars": [
+								{
+									"id": 34,
+									"text": "Prepare Solution",
+									"type": "Normal",
+									"startDate": "2023-03-21T07:33:20.000Z",
+									"endDate": "2023-03-22T09:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Prepare Solution",
+								"3/21/2023, 9:33:20 AM",
+								"3/22/2023, 11:06:40 AM",
+								"1 d, 1 h, 33 m"
+							],
+							"childRows": [
+								{
+									"id": 35,
+									"bars": [
+										{
+											"id": 35,
+											"text": "Charge Water",
+											"type": "Normal",
+											"startDate": "2023-03-21T07:33:20.000Z",
+											"endDate": "2023-03-21T08:03:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Water",
+										"3/21/2023, 9:33:20 AM",
+										"3/21/2023, 10:03:20 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 36,
+									"bars": [
+										{
+											"id": 36,
+											"text": "Charge Sodium Chloride",
+											"type": "Normal",
+											"startDate": "2023-03-21T08:03:20.000Z",
+											"endDate": "2023-03-21T08:18:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Sodium Chloride",
+										"3/21/2023, 10:03:20 AM",
+										"3/21/2023, 10:18:20 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 37,
+									"bars": [
+										{
+											"id": 37,
+											"text": "Charge API",
+											"type": "Normal",
+											"startDate": "2023-03-21T08:18:20.000Z",
+											"endDate": "2023-03-21T08:33:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge API",
+										"3/21/2023, 10:18:20 AM",
+										"3/21/2023, 10:33:20 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 38,
+									"bars": [
+										{
+											"id": 38,
+											"text": "Mix Thoroughly",
+											"type": "Normal",
+											"startDate": "2023-03-21T08:33:20.000Z",
+											"endDate": "2023-03-21T09:33:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Mix Thoroughly",
+										"3/21/2023, 10:33:20 AM",
+										"3/21/2023, 11:33:20 AM",
+										"0 d, 1 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 39,
+									"bars": [
+										{
+											"id": 39,
+											"text": "Transfer to Storage Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T09:33:20.000Z",
+											"endDate": "2023-03-21T10:03:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Transfer to Storage Tank",
+										"3/21/2023, 11:33:20 AM",
+										"3/21/2023, 12:03:20 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 40,
+									"bars": [
+										{
+											"id": 40,
+											"text": "Clean Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T10:03:20.000Z",
+											"endDate": "2023-03-21T11:33:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank",
+										"3/21/2023, 12:03:20 PM",
+										"3/21/2023, 1:33:20 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 41,
+									"bars": [
+										{
+											"id": 41,
+											"text": "PostChangeover",
+											"type": "Normal",
+											"startDate": "2023-03-21T21:06:40.000Z",
+											"endDate": "2023-03-22T09:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"PostChangeover",
+										"3/21/2023, 11:06:40 PM",
+										"3/22/2023, 11:06:40 AM",
+										"0 d, 12 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 42,
+							"bars": [
+								{
+									"id": 42,
+									"text": "Store",
+									"type": "Normal",
+									"startDate": "2023-03-21T09:33:20.000Z",
+									"endDate": "2023-03-22T09:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Store",
+								"3/21/2023, 11:33:20 AM",
+								"3/22/2023, 11:06:40 AM",
+								"0 d, 23 h, 33 m"
+							],
+							"childRows": [
+								{
+									"id": 43,
+									"bars": [
+										{
+											"id": 43,
+											"text": "Receive from Mixing Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T09:33:20.000Z",
+											"endDate": "2023-03-21T10:03:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Receive from Mixing Tank",
+										"3/21/2023, 11:33:20 AM",
+										"3/21/2023, 12:03:20 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 44,
+									"bars": [
+										{
+											"id": 44,
+											"text": "Feed Filler",
+											"type": "Normal",
+											"startDate": "2023-03-21T10:03:20.000Z",
+											"endDate": "2023-03-21T15:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Feed Filler",
+										"3/21/2023, 12:03:20 PM",
+										"3/21/2023, 5:36:40 PM",
+										"0 d, 5 h, 33 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 45,
+									"bars": [
+										{
+											"id": 45,
+											"text": "Clean Tank Store",
+											"type": "Normal",
+											"startDate": "2023-03-21T15:36:40.000Z",
+											"endDate": "2023-03-21T17:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank Store",
+										"3/21/2023, 5:36:40 PM",
+										"3/21/2023, 7:06:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 46,
+									"bars": [
+										{
+											"id": 46,
+											"text": "PostChangeover",
+											"type": "Normal",
+											"startDate": "2023-03-21T21:06:40.000Z",
+											"endDate": "2023-03-22T09:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"PostChangeover",
+										"3/21/2023, 11:06:40 PM",
+										"3/22/2023, 11:06:40 AM",
+										"0 d, 12 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 47,
+							"bars": [
+								{
+									"id": 47,
+									"text": "Fill",
+									"type": "Normal",
+									"startDate": "2023-03-21T10:03:20.000Z",
+									"endDate": "2023-03-22T09:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Fill",
+								"3/21/2023, 12:03:20 PM",
+								"3/22/2023, 11:06:40 AM",
+								"0 d, 23 h, 3 m"
+							],
+							"childRows": [
+								{
+									"id": 48,
+									"bars": [
+										{
+											"id": 48,
+											"text": "Fill Bags",
+											"type": "Normal",
+											"startDate": "2023-03-21T10:03:20.000Z",
+											"endDate": "2023-03-21T15:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Fill Bags",
+										"3/21/2023, 12:03:20 PM",
+										"3/21/2023, 5:36:40 PM",
+										"0 d, 5 h, 33 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 49,
+									"bars": [
+										{
+											"id": 49,
+											"text": "Clean Filler",
+											"type": "Normal",
+											"startDate": "2023-03-21T15:36:40.000Z",
+											"endDate": "2023-03-21T17:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Filler",
+										"3/21/2023, 5:36:40 PM",
+										"3/21/2023, 7:06:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 50,
+									"bars": [
+										{
+											"id": 50,
+											"text": "PostChangeover",
+											"type": "Normal",
+											"startDate": "2023-03-21T21:06:40.000Z",
+											"endDate": "2023-03-22T09:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"PostChangeover",
+										"3/21/2023, 11:06:40 PM",
+										"3/22/2023, 11:06:40 AM",
+										"0 d, 12 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						}
+					],
+					"rowEntityType": "Batch"
+				},
+				{
+					"id": 51,
+					"bars": [
+						{
+							"id": 51,
+							"text": "Campaign-1-3",
+							"type": "Normal",
+							"startDate": "2023-03-21T11:33:20.000Z",
+							"endDate": "2023-03-22T09:06:40.000Z",
+							"barStyle": {
+								"borderWidth": 1,
+								"borderStyle": "solid",
+								"borderColor": "black",
+								"borderRadius": "3px",
+								"backgroundColor": "#ff9d31"
+							}
+						}
+					],
+					"gridValues": [
+						"Campaign-1-3",
+						"3/21/2023, 1:33:20 PM",
+						"3/22/2023, 11:06:40 AM",
+						"0 d, 21 h, 33 m"
+					],
+					"childRows": [
+						{
+							"id": 52,
+							"bars": [
+								{
+									"id": 52,
+									"text": "Prepare Solution",
+									"type": "Normal",
+									"startDate": "2023-03-21T11:33:20.000Z",
+									"endDate": "2023-03-22T09:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Prepare Solution",
+								"3/21/2023, 1:33:20 PM",
+								"3/22/2023, 11:06:40 AM",
+								"0 d, 21 h, 33 m"
+							],
+							"childRows": [
+								{
+									"id": 53,
+									"bars": [
+										{
+											"id": 53,
+											"text": "Charge Water",
+											"type": "Normal",
+											"startDate": "2023-03-21T11:33:20.000Z",
+											"endDate": "2023-03-21T12:03:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Water",
+										"3/21/2023, 1:33:20 PM",
+										"3/21/2023, 2:03:20 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 54,
+									"bars": [
+										{
+											"id": 54,
+											"text": "Charge Sodium Chloride",
+											"type": "Normal",
+											"startDate": "2023-03-21T12:03:20.000Z",
+											"endDate": "2023-03-21T12:18:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Sodium Chloride",
+										"3/21/2023, 2:03:20 PM",
+										"3/21/2023, 2:18:20 PM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 55,
+									"bars": [
+										{
+											"id": 55,
+											"text": "Charge API",
+											"type": "Normal",
+											"startDate": "2023-03-21T12:18:20.000Z",
+											"endDate": "2023-03-21T12:33:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge API",
+										"3/21/2023, 2:18:20 PM",
+										"3/21/2023, 2:33:20 PM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 56,
+									"bars": [
+										{
+											"id": 56,
+											"text": "Mix Thoroughly",
+											"type": "Normal",
+											"startDate": "2023-03-21T12:33:20.000Z",
+											"endDate": "2023-03-21T13:33:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Mix Thoroughly",
+										"3/21/2023, 2:33:20 PM",
+										"3/21/2023, 3:33:20 PM",
+										"0 d, 1 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 57,
+									"bars": [
+										{
+											"id": 57,
+											"text": "Transfer to Storage Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T13:33:20.000Z",
+											"endDate": "2023-03-21T14:03:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Transfer to Storage Tank",
+										"3/21/2023, 3:33:20 PM",
+										"3/21/2023, 4:03:20 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 58,
+									"bars": [
+										{
+											"id": 58,
+											"text": "Clean Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T14:03:20.000Z",
+											"endDate": "2023-03-21T15:33:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank",
+										"3/21/2023, 4:03:20 PM",
+										"3/21/2023, 5:33:20 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 59,
+									"bars": [
+										{
+											"id": 59,
+											"text": "PostChangeover",
+											"type": "Normal",
+											"startDate": "2023-03-21T21:06:40.000Z",
+											"endDate": "2023-03-22T09:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"PostChangeover",
+										"3/21/2023, 11:06:40 PM",
+										"3/22/2023, 11:06:40 AM",
+										"0 d, 12 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 60,
+							"bars": [
+								{
+									"id": 60,
+									"text": "Store",
+									"type": "Normal",
+									"startDate": "2023-03-21T13:33:20.000Z",
+									"endDate": "2023-03-22T09:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Store",
+								"3/21/2023, 3:33:20 PM",
+								"3/22/2023, 11:06:40 AM",
+								"0 d, 19 h, 33 m"
+							],
+							"childRows": [
+								{
+									"id": 61,
+									"bars": [
+										{
+											"id": 61,
+											"text": "Receive from Mixing Tank",
+											"type": "Normal",
+											"startDate": "2023-03-21T13:33:20.000Z",
+											"endDate": "2023-03-21T14:03:20.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Receive from Mixing Tank",
+										"3/21/2023, 3:33:20 PM",
+										"3/21/2023, 4:03:20 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 62,
+									"bars": [
+										{
+											"id": 62,
+											"text": "Feed Filler",
+											"type": "Normal",
+											"startDate": "2023-03-21T14:03:20.000Z",
+											"endDate": "2023-03-21T19:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Feed Filler",
+										"3/21/2023, 4:03:20 PM",
+										"3/21/2023, 9:36:40 PM",
+										"0 d, 5 h, 33 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 63,
+									"bars": [
+										{
+											"id": 63,
+											"text": "Clean Tank Store",
+											"type": "Normal",
+											"startDate": "2023-03-21T19:36:40.000Z",
+											"endDate": "2023-03-21T21:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank Store",
+										"3/21/2023, 9:36:40 PM",
+										"3/21/2023, 11:06:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 64,
+									"bars": [
+										{
+											"id": 64,
+											"text": "PostChangeover",
+											"type": "Normal",
+											"startDate": "2023-03-21T21:06:40.000Z",
+											"endDate": "2023-03-22T09:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"PostChangeover",
+										"3/21/2023, 11:06:40 PM",
+										"3/22/2023, 11:06:40 AM",
+										"0 d, 12 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 65,
+							"bars": [
+								{
+									"id": 65,
+									"text": "Fill",
+									"type": "Normal",
+									"startDate": "2023-03-21T14:03:20.000Z",
+									"endDate": "2023-03-22T09:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Fill",
+								"3/21/2023, 4:03:20 PM",
+								"3/22/2023, 11:06:40 AM",
+								"0 d, 19 h, 3 m"
+							],
+							"childRows": [
+								{
+									"id": 66,
+									"bars": [
+										{
+											"id": 66,
+											"text": "Fill Bags",
+											"type": "Normal",
+											"startDate": "2023-03-21T14:03:20.000Z",
+											"endDate": "2023-03-21T19:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Fill Bags",
+										"3/21/2023, 4:03:20 PM",
+										"3/21/2023, 9:36:40 PM",
+										"0 d, 5 h, 33 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 67,
+									"bars": [
+										{
+											"id": 67,
+											"text": "Clean Filler",
+											"type": "Normal",
+											"startDate": "2023-03-21T19:36:40.000Z",
+											"endDate": "2023-03-21T21:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Filler",
+										"3/21/2023, 9:36:40 PM",
+										"3/21/2023, 11:06:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 68,
+									"bars": [
+										{
+											"id": 68,
+											"text": "PostChangeover",
+											"type": "Normal",
+											"startDate": "2023-03-21T21:06:40.000Z",
+											"endDate": "2023-03-22T09:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"PostChangeover",
+										"3/21/2023, 11:06:40 PM",
+										"3/22/2023, 11:06:40 AM",
+										"0 d, 12 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						}
+					],
+					"rowEntityType": "Batch"
+				}
+			],
+			"rowEntityType": "Campaign"
+		},
+		{
+			"id": 69,
+			"bars": [
+				{
+					"id": 69,
+					"text": "Campaign-2",
+					"type": "Normal",
+					"startDate": "2023-03-22T07:06:40.000Z",
+					"endDate": "2023-03-24T02:26:40.000Z",
+					"barStyle": {
+						"borderWidth": 1,
+						"borderStyle": "solid",
+						"borderColor": "black",
+						"borderRadius": "3px",
+						"backgroundColor": "#25b163"
+					}
+				}
+			],
+			"gridValues": [
+				"Campaign-2",
+				"3/22/2023, 9:06:40 AM",
+				"3/24/2023, 4:26:40 AM",
+				"1 d, 19 h, 20 m"
+			],
+			"childRows": [
+				{
+					"id": 70,
+					"bars": [
+						{
+							"id": 70,
+							"text": "Campaign-2-0",
+							"type": "Normal",
+							"startDate": "2023-03-22T07:06:40.000Z",
+							"endDate": "2023-03-22T19:26:40.000Z",
+							"barStyle": {
+								"borderWidth": 1,
+								"borderStyle": "solid",
+								"borderColor": "black",
+								"borderRadius": "3px",
+								"backgroundColor": "#ff9d31"
+							}
+						}
+					],
+					"gridValues": [
+						"Campaign-2-0",
+						"3/22/2023, 9:06:40 AM",
+						"3/22/2023, 9:26:40 PM",
+						"0 d, 12 h, 20 m"
+					],
+					"childRows": [
+						{
+							"id": 71,
+							"bars": [
+								{
+									"id": 71,
+									"text": "Prepare Solution",
+									"type": "Normal",
+									"startDate": "2023-03-22T07:06:40.000Z",
+									"endDate": "2023-03-22T11:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Prepare Solution",
+								"3/22/2023, 9:06:40 AM",
+								"3/22/2023, 1:06:40 PM",
+								"0 d, 4 h, 0 m"
+							],
+							"childRows": [
+								{
+									"id": 72,
+									"bars": [
+										{
+											"id": 72,
+											"text": "Charge Water",
+											"type": "Normal",
+											"startDate": "2023-03-22T07:06:40.000Z",
+											"endDate": "2023-03-22T07:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Water",
+										"3/22/2023, 9:06:40 AM",
+										"3/22/2023, 9:36:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 73,
+									"bars": [
+										{
+											"id": 73,
+											"text": "Charge Sodium Chloride",
+											"type": "Normal",
+											"startDate": "2023-03-22T07:36:40.000Z",
+											"endDate": "2023-03-22T07:51:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Sodium Chloride",
+										"3/22/2023, 9:36:40 AM",
+										"3/22/2023, 9:51:40 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 74,
+									"bars": [
+										{
+											"id": 74,
+											"text": "Charge API",
+											"type": "Normal",
+											"startDate": "2023-03-22T07:51:40.000Z",
+											"endDate": "2023-03-22T08:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge API",
+										"3/22/2023, 9:51:40 AM",
+										"3/22/2023, 10:06:40 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 75,
+									"bars": [
+										{
+											"id": 75,
+											"text": "Mix Thoroughly",
+											"type": "Normal",
+											"startDate": "2023-03-22T08:06:40.000Z",
+											"endDate": "2023-03-22T09:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Mix Thoroughly",
+										"3/22/2023, 10:06:40 AM",
+										"3/22/2023, 11:06:40 AM",
+										"0 d, 1 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 76,
+									"bars": [
+										{
+											"id": 76,
+											"text": "Transfer to Storage Tank",
+											"type": "Normal",
+											"startDate": "2023-03-22T09:06:40.000Z",
+											"endDate": "2023-03-22T09:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Transfer to Storage Tank",
+										"3/22/2023, 11:06:40 AM",
+										"3/22/2023, 11:36:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 77,
+									"bars": [
+										{
+											"id": 77,
+											"text": "Clean Tank",
+											"type": "Normal",
+											"startDate": "2023-03-22T09:36:40.000Z",
+											"endDate": "2023-03-22T11:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank",
+										"3/22/2023, 11:36:40 AM",
+										"3/22/2023, 1:06:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 78,
+							"bars": [
+								{
+									"id": 78,
+									"text": "Store",
+									"type": "Normal",
+									"startDate": "2023-03-22T09:06:40.000Z",
+									"endDate": "2023-03-22T19:26:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Store",
+								"3/22/2023, 11:06:40 AM",
+								"3/22/2023, 9:26:40 PM",
+								"0 d, 10 h, 20 m"
+							],
+							"childRows": [
+								{
+									"id": 79,
+									"bars": [
+										{
+											"id": 79,
+											"text": "Receive from Mixing Tank",
+											"type": "Normal",
+											"startDate": "2023-03-22T09:06:40.000Z",
+											"endDate": "2023-03-22T09:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Receive from Mixing Tank",
+										"3/22/2023, 11:06:40 AM",
+										"3/22/2023, 11:36:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 80,
+									"bars": [
+										{
+											"id": 80,
+											"text": "Feed Filler",
+											"type": "Normal",
+											"startDate": "2023-03-22T09:36:40.000Z",
+											"endDate": "2023-03-22T17:56:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Feed Filler",
+										"3/22/2023, 11:36:40 AM",
+										"3/22/2023, 7:56:40 PM",
+										"0 d, 8 h, 20 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 81,
+									"bars": [
+										{
+											"id": 81,
+											"text": "Clean Tank Store",
+											"type": "Normal",
+											"startDate": "2023-03-22T17:56:40.000Z",
+											"endDate": "2023-03-22T19:26:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank Store",
+										"3/22/2023, 7:56:40 PM",
+										"3/22/2023, 9:26:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 82,
+							"bars": [
+								{
+									"id": 82,
+									"text": "Fill",
+									"type": "Normal",
+									"startDate": "2023-03-22T09:36:40.000Z",
+									"endDate": "2023-03-22T19:26:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Fill",
+								"3/22/2023, 11:36:40 AM",
+								"3/22/2023, 9:26:40 PM",
+								"0 d, 9 h, 50 m"
+							],
+							"childRows": [
+								{
+									"id": 83,
+									"bars": [
+										{
+											"id": 83,
+											"text": "Fill Bags",
+											"type": "Normal",
+											"startDate": "2023-03-22T09:36:40.000Z",
+											"endDate": "2023-03-22T17:56:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Fill Bags",
+										"3/22/2023, 11:36:40 AM",
+										"3/22/2023, 7:56:40 PM",
+										"0 d, 8 h, 20 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 84,
+									"bars": [
+										{
+											"id": 84,
+											"text": "Clean Filler",
+											"type": "Normal",
+											"startDate": "2023-03-22T17:56:40.000Z",
+											"endDate": "2023-03-22T19:26:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Filler",
+										"3/22/2023, 7:56:40 PM",
+										"3/22/2023, 9:26:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						}
+					],
+					"rowEntityType": "Batch"
+				},
+				{
+					"id": 85,
+					"bars": [
+						{
+							"id": 85,
+							"text": "Campaign-2-1",
+							"type": "Normal",
+							"startDate": "2023-03-22T17:26:40.000Z",
+							"endDate": "2023-03-23T05:46:40.000Z",
+							"barStyle": {
+								"borderWidth": 1,
+								"borderStyle": "solid",
+								"borderColor": "black",
+								"borderRadius": "3px",
+								"backgroundColor": "#ff9d31"
+							}
+						}
+					],
+					"gridValues": [
+						"Campaign-2-1",
+						"3/22/2023, 7:26:40 PM",
+						"3/23/2023, 7:46:40 AM",
+						"0 d, 12 h, 20 m"
+					],
+					"childRows": [
+						{
+							"id": 86,
+							"bars": [
+								{
+									"id": 86,
+									"text": "Prepare Solution",
+									"type": "Normal",
+									"startDate": "2023-03-22T17:26:40.000Z",
+									"endDate": "2023-03-22T21:26:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Prepare Solution",
+								"3/22/2023, 7:26:40 PM",
+								"3/22/2023, 11:26:40 PM",
+								"0 d, 4 h, 0 m"
+							],
+							"childRows": [
+								{
+									"id": 87,
+									"bars": [
+										{
+											"id": 87,
+											"text": "Charge Water",
+											"type": "Normal",
+											"startDate": "2023-03-22T17:26:40.000Z",
+											"endDate": "2023-03-22T17:56:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Water",
+										"3/22/2023, 7:26:40 PM",
+										"3/22/2023, 7:56:40 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 88,
+									"bars": [
+										{
+											"id": 88,
+											"text": "Charge Sodium Chloride",
+											"type": "Normal",
+											"startDate": "2023-03-22T17:56:40.000Z",
+											"endDate": "2023-03-22T18:11:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Sodium Chloride",
+										"3/22/2023, 7:56:40 PM",
+										"3/22/2023, 8:11:40 PM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 89,
+									"bars": [
+										{
+											"id": 89,
+											"text": "Charge API",
+											"type": "Normal",
+											"startDate": "2023-03-22T18:11:40.000Z",
+											"endDate": "2023-03-22T18:26:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge API",
+										"3/22/2023, 8:11:40 PM",
+										"3/22/2023, 8:26:40 PM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 90,
+									"bars": [
+										{
+											"id": 90,
+											"text": "Mix Thoroughly",
+											"type": "Normal",
+											"startDate": "2023-03-22T18:26:40.000Z",
+											"endDate": "2023-03-22T19:26:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Mix Thoroughly",
+										"3/22/2023, 8:26:40 PM",
+										"3/22/2023, 9:26:40 PM",
+										"0 d, 1 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 91,
+									"bars": [
+										{
+											"id": 91,
+											"text": "Transfer to Storage Tank",
+											"type": "Normal",
+											"startDate": "2023-03-22T19:26:40.000Z",
+											"endDate": "2023-03-22T19:56:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Transfer to Storage Tank",
+										"3/22/2023, 9:26:40 PM",
+										"3/22/2023, 9:56:40 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 92,
+									"bars": [
+										{
+											"id": 92,
+											"text": "Clean Tank",
+											"type": "Normal",
+											"startDate": "2023-03-22T19:56:40.000Z",
+											"endDate": "2023-03-22T21:26:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank",
+										"3/22/2023, 9:56:40 PM",
+										"3/22/2023, 11:26:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 93,
+							"bars": [
+								{
+									"id": 93,
+									"text": "Store",
+									"type": "Normal",
+									"startDate": "2023-03-22T19:26:40.000Z",
+									"endDate": "2023-03-23T05:46:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Store",
+								"3/22/2023, 9:26:40 PM",
+								"3/23/2023, 7:46:40 AM",
+								"0 d, 10 h, 20 m"
+							],
+							"childRows": [
+								{
+									"id": 94,
+									"bars": [
+										{
+											"id": 94,
+											"text": "Receive from Mixing Tank",
+											"type": "Normal",
+											"startDate": "2023-03-22T19:26:40.000Z",
+											"endDate": "2023-03-22T19:56:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Receive from Mixing Tank",
+										"3/22/2023, 9:26:40 PM",
+										"3/22/2023, 9:56:40 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 95,
+									"bars": [
+										{
+											"id": 95,
+											"text": "Feed Filler",
+											"type": "Normal",
+											"startDate": "2023-03-22T19:56:40.000Z",
+											"endDate": "2023-03-23T04:16:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Feed Filler",
+										"3/22/2023, 9:56:40 PM",
+										"3/23/2023, 6:16:40 AM",
+										"0 d, 8 h, 20 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 96,
+									"bars": [
+										{
+											"id": 96,
+											"text": "Clean Tank Store",
+											"type": "Normal",
+											"startDate": "2023-03-23T04:16:40.000Z",
+											"endDate": "2023-03-23T05:46:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank Store",
+										"3/23/2023, 6:16:40 AM",
+										"3/23/2023, 7:46:40 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 97,
+							"bars": [
+								{
+									"id": 97,
+									"text": "Fill",
+									"type": "Normal",
+									"startDate": "2023-03-22T19:56:40.000Z",
+									"endDate": "2023-03-23T05:46:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Fill",
+								"3/22/2023, 9:56:40 PM",
+								"3/23/2023, 7:46:40 AM",
+								"0 d, 9 h, 50 m"
+							],
+							"childRows": [
+								{
+									"id": 98,
+									"bars": [
+										{
+											"id": 98,
+											"text": "Fill Bags",
+											"type": "Normal",
+											"startDate": "2023-03-22T19:56:40.000Z",
+											"endDate": "2023-03-23T04:16:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Fill Bags",
+										"3/22/2023, 9:56:40 PM",
+										"3/23/2023, 6:16:40 AM",
+										"0 d, 8 h, 20 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 99,
+									"bars": [
+										{
+											"id": 99,
+											"text": "Clean Filler",
+											"type": "Normal",
+											"startDate": "2023-03-23T04:16:40.000Z",
+											"endDate": "2023-03-23T05:46:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Filler",
+										"3/23/2023, 6:16:40 AM",
+										"3/23/2023, 7:46:40 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						}
+					],
+					"rowEntityType": "Batch"
+				},
+				{
+					"id": 100,
+					"bars": [
+						{
+							"id": 100,
+							"text": "Campaign-2-2",
+							"type": "Normal",
+							"startDate": "2023-03-23T03:46:40.000Z",
+							"endDate": "2023-03-23T16:06:40.000Z",
+							"barStyle": {
+								"borderWidth": 1,
+								"borderStyle": "solid",
+								"borderColor": "black",
+								"borderRadius": "3px",
+								"backgroundColor": "#ff9d31"
+							}
+						}
+					],
+					"gridValues": [
+						"Campaign-2-2",
+						"3/23/2023, 5:46:40 AM",
+						"3/23/2023, 6:06:40 PM",
+						"0 d, 12 h, 20 m"
+					],
+					"childRows": [
+						{
+							"id": 101,
+							"bars": [
+								{
+									"id": 101,
+									"text": "Prepare Solution",
+									"type": "Normal",
+									"startDate": "2023-03-23T03:46:40.000Z",
+									"endDate": "2023-03-23T07:46:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Prepare Solution",
+								"3/23/2023, 5:46:40 AM",
+								"3/23/2023, 9:46:40 AM",
+								"0 d, 4 h, 0 m"
+							],
+							"childRows": [
+								{
+									"id": 102,
+									"bars": [
+										{
+											"id": 102,
+											"text": "Charge Water",
+											"type": "Normal",
+											"startDate": "2023-03-23T03:46:40.000Z",
+											"endDate": "2023-03-23T04:16:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Water",
+										"3/23/2023, 5:46:40 AM",
+										"3/23/2023, 6:16:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 103,
+									"bars": [
+										{
+											"id": 103,
+											"text": "Charge Sodium Chloride",
+											"type": "Normal",
+											"startDate": "2023-03-23T04:16:40.000Z",
+											"endDate": "2023-03-23T04:31:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Sodium Chloride",
+										"3/23/2023, 6:16:40 AM",
+										"3/23/2023, 6:31:40 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 104,
+									"bars": [
+										{
+											"id": 104,
+											"text": "Charge API",
+											"type": "Normal",
+											"startDate": "2023-03-23T04:31:40.000Z",
+											"endDate": "2023-03-23T04:46:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge API",
+										"3/23/2023, 6:31:40 AM",
+										"3/23/2023, 6:46:40 AM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 105,
+									"bars": [
+										{
+											"id": 105,
+											"text": "Mix Thoroughly",
+											"type": "Normal",
+											"startDate": "2023-03-23T04:46:40.000Z",
+											"endDate": "2023-03-23T05:46:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Mix Thoroughly",
+										"3/23/2023, 6:46:40 AM",
+										"3/23/2023, 7:46:40 AM",
+										"0 d, 1 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 106,
+									"bars": [
+										{
+											"id": 106,
+											"text": "Transfer to Storage Tank",
+											"type": "Normal",
+											"startDate": "2023-03-23T05:46:40.000Z",
+											"endDate": "2023-03-23T06:16:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Transfer to Storage Tank",
+										"3/23/2023, 7:46:40 AM",
+										"3/23/2023, 8:16:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 107,
+									"bars": [
+										{
+											"id": 107,
+											"text": "Clean Tank",
+											"type": "Normal",
+											"startDate": "2023-03-23T06:16:40.000Z",
+											"endDate": "2023-03-23T07:46:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank",
+										"3/23/2023, 8:16:40 AM",
+										"3/23/2023, 9:46:40 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 108,
+							"bars": [
+								{
+									"id": 108,
+									"text": "Store",
+									"type": "Normal",
+									"startDate": "2023-03-23T05:46:40.000Z",
+									"endDate": "2023-03-23T16:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Store",
+								"3/23/2023, 7:46:40 AM",
+								"3/23/2023, 6:06:40 PM",
+								"0 d, 10 h, 20 m"
+							],
+							"childRows": [
+								{
+									"id": 109,
+									"bars": [
+										{
+											"id": 109,
+											"text": "Receive from Mixing Tank",
+											"type": "Normal",
+											"startDate": "2023-03-23T05:46:40.000Z",
+											"endDate": "2023-03-23T06:16:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Receive from Mixing Tank",
+										"3/23/2023, 7:46:40 AM",
+										"3/23/2023, 8:16:40 AM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 110,
+									"bars": [
+										{
+											"id": 110,
+											"text": "Feed Filler",
+											"type": "Normal",
+											"startDate": "2023-03-23T06:16:40.000Z",
+											"endDate": "2023-03-23T14:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Feed Filler",
+										"3/23/2023, 8:16:40 AM",
+										"3/23/2023, 4:36:40 PM",
+										"0 d, 8 h, 20 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 111,
+									"bars": [
+										{
+											"id": 111,
+											"text": "Clean Tank Store",
+											"type": "Normal",
+											"startDate": "2023-03-23T14:36:40.000Z",
+											"endDate": "2023-03-23T16:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank Store",
+										"3/23/2023, 4:36:40 PM",
+										"3/23/2023, 6:06:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 112,
+							"bars": [
+								{
+									"id": 112,
+									"text": "Fill",
+									"type": "Normal",
+									"startDate": "2023-03-23T06:16:40.000Z",
+									"endDate": "2023-03-23T16:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Fill",
+								"3/23/2023, 8:16:40 AM",
+								"3/23/2023, 6:06:40 PM",
+								"0 d, 9 h, 50 m"
+							],
+							"childRows": [
+								{
+									"id": 113,
+									"bars": [
+										{
+											"id": 113,
+											"text": "Fill Bags",
+											"type": "Normal",
+											"startDate": "2023-03-23T06:16:40.000Z",
+											"endDate": "2023-03-23T14:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Fill Bags",
+										"3/23/2023, 8:16:40 AM",
+										"3/23/2023, 4:36:40 PM",
+										"0 d, 8 h, 20 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 114,
+									"bars": [
+										{
+											"id": 114,
+											"text": "Clean Filler",
+											"type": "Normal",
+											"startDate": "2023-03-23T14:36:40.000Z",
+											"endDate": "2023-03-23T16:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Filler",
+										"3/23/2023, 4:36:40 PM",
+										"3/23/2023, 6:06:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						}
+					],
+					"rowEntityType": "Batch"
+				},
+				{
+					"id": 115,
+					"bars": [
+						{
+							"id": 115,
+							"text": "Campaign-2-3",
+							"type": "Normal",
+							"startDate": "2023-03-23T14:06:40.000Z",
+							"endDate": "2023-03-24T02:26:40.000Z",
+							"barStyle": {
+								"borderWidth": 1,
+								"borderStyle": "solid",
+								"borderColor": "black",
+								"borderRadius": "3px",
+								"backgroundColor": "#ff9d31"
+							}
+						}
+					],
+					"gridValues": [
+						"Campaign-2-3",
+						"3/23/2023, 4:06:40 PM",
+						"3/24/2023, 4:26:40 AM",
+						"0 d, 12 h, 20 m"
+					],
+					"childRows": [
+						{
+							"id": 116,
+							"bars": [
+								{
+									"id": 116,
+									"text": "Prepare Solution",
+									"type": "Normal",
+									"startDate": "2023-03-23T14:06:40.000Z",
+									"endDate": "2023-03-23T18:06:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Prepare Solution",
+								"3/23/2023, 4:06:40 PM",
+								"3/23/2023, 8:06:40 PM",
+								"0 d, 4 h, 0 m"
+							],
+							"childRows": [
+								{
+									"id": 117,
+									"bars": [
+										{
+											"id": 117,
+											"text": "Charge Water",
+											"type": "Normal",
+											"startDate": "2023-03-23T14:06:40.000Z",
+											"endDate": "2023-03-23T14:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Water",
+										"3/23/2023, 4:06:40 PM",
+										"3/23/2023, 4:36:40 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 118,
+									"bars": [
+										{
+											"id": 118,
+											"text": "Charge Sodium Chloride",
+											"type": "Normal",
+											"startDate": "2023-03-23T14:36:40.000Z",
+											"endDate": "2023-03-23T14:51:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge Sodium Chloride",
+										"3/23/2023, 4:36:40 PM",
+										"3/23/2023, 4:51:40 PM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 119,
+									"bars": [
+										{
+											"id": 119,
+											"text": "Charge API",
+											"type": "Normal",
+											"startDate": "2023-03-23T14:51:40.000Z",
+											"endDate": "2023-03-23T15:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Charge API",
+										"3/23/2023, 4:51:40 PM",
+										"3/23/2023, 5:06:40 PM",
+										"0 d, 0 h, 15 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 120,
+									"bars": [
+										{
+											"id": 120,
+											"text": "Mix Thoroughly",
+											"type": "Normal",
+											"startDate": "2023-03-23T15:06:40.000Z",
+											"endDate": "2023-03-23T16:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Mix Thoroughly",
+										"3/23/2023, 5:06:40 PM",
+										"3/23/2023, 6:06:40 PM",
+										"0 d, 1 h, 0 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 121,
+									"bars": [
+										{
+											"id": 121,
+											"text": "Transfer to Storage Tank",
+											"type": "Normal",
+											"startDate": "2023-03-23T16:06:40.000Z",
+											"endDate": "2023-03-23T16:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Transfer to Storage Tank",
+										"3/23/2023, 6:06:40 PM",
+										"3/23/2023, 6:36:40 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 122,
+									"bars": [
+										{
+											"id": 122,
+											"text": "Clean Tank",
+											"type": "Normal",
+											"startDate": "2023-03-23T16:36:40.000Z",
+											"endDate": "2023-03-23T18:06:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank",
+										"3/23/2023, 6:36:40 PM",
+										"3/23/2023, 8:06:40 PM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 123,
+							"bars": [
+								{
+									"id": 123,
+									"text": "Store",
+									"type": "Normal",
+									"startDate": "2023-03-23T16:06:40.000Z",
+									"endDate": "2023-03-24T02:26:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Store",
+								"3/23/2023, 6:06:40 PM",
+								"3/24/2023, 4:26:40 AM",
+								"0 d, 10 h, 20 m"
+							],
+							"childRows": [
+								{
+									"id": 124,
+									"bars": [
+										{
+											"id": 124,
+											"text": "Receive from Mixing Tank",
+											"type": "Normal",
+											"startDate": "2023-03-23T16:06:40.000Z",
+											"endDate": "2023-03-23T16:36:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Receive from Mixing Tank",
+										"3/23/2023, 6:06:40 PM",
+										"3/23/2023, 6:36:40 PM",
+										"0 d, 0 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 125,
+									"bars": [
+										{
+											"id": 125,
+											"text": "Feed Filler",
+											"type": "Normal",
+											"startDate": "2023-03-23T16:36:40.000Z",
+											"endDate": "2023-03-24T00:56:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Feed Filler",
+										"3/23/2023, 6:36:40 PM",
+										"3/24/2023, 2:56:40 AM",
+										"0 d, 8 h, 20 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 126,
+									"bars": [
+										{
+											"id": 126,
+											"text": "Clean Tank Store",
+											"type": "Normal",
+											"startDate": "2023-03-24T00:56:40.000Z",
+											"endDate": "2023-03-24T02:26:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Tank Store",
+										"3/24/2023, 2:56:40 AM",
+										"3/24/2023, 4:26:40 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						},
+						{
+							"id": 127,
+							"bars": [
+								{
+									"id": 127,
+									"text": "Fill",
+									"type": "Normal",
+									"startDate": "2023-03-23T16:36:40.000Z",
+									"endDate": "2023-03-24T02:26:40.000Z",
+									"barStyle": {
+										"borderWidth": 1,
+										"borderStyle": "solid",
+										"borderColor": "black",
+										"borderRadius": "3px",
+										"backgroundColor": "#67a6e3"
+									}
+								}
+							],
+							"gridValues": [
+								"Fill",
+								"3/23/2023, 6:36:40 PM",
+								"3/24/2023, 4:26:40 AM",
+								"0 d, 9 h, 50 m"
+							],
+							"childRows": [
+								{
+									"id": 128,
+									"bars": [
+										{
+											"id": 128,
+											"text": "Fill Bags",
+											"type": "Normal",
+											"startDate": "2023-03-23T16:36:40.000Z",
+											"endDate": "2023-03-24T00:56:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Fill Bags",
+										"3/23/2023, 6:36:40 PM",
+										"3/24/2023, 2:56:40 AM",
+										"0 d, 8 h, 20 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								},
+								{
+									"id": 129,
+									"bars": [
+										{
+											"id": 129,
+											"text": "Clean Filler",
+											"type": "Normal",
+											"startDate": "2023-03-24T00:56:40.000Z",
+											"endDate": "2023-03-24T02:26:40.000Z",
+											"barStyle": {
+												"borderWidth": 1,
+												"borderStyle": "solid",
+												"borderColor": "black",
+												"borderRadius": "3px",
+												"backgroundColor": "#00b4c5"
+											}
+										}
+									],
+									"gridValues": [
+										"Clean Filler",
+										"3/24/2023, 2:56:40 AM",
+										"3/24/2023, 4:26:40 AM",
+										"0 d, 1 h, 30 m"
+									],
+									"childRows": [],
+									"rowEntityType": "Operation"
+								}
+							],
+							"rowEntityType": "Procedure"
+						}
+					],
+					"rowEntityType": "Batch"
+				}
+			],
+			"rowEntityType": "Campaign"
+		}
+	],
+	"arrows": []
+}

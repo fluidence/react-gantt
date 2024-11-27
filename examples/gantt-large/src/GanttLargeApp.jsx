@@ -114,7 +114,7 @@ function GanttLargeApp() {
 					rowStatus: savedState.rowStatus,
 					gridWidth: savedState.gridWidth,
 					scrollLeft: savedState.scrollLeft,
-					timeScale: savedState.timeScale,
+					timeScaleConfig: savedState.timeScaleConfig,
 					viewScale: savedState.viewScale,
 					autoTimeScale: savedState.autoTimeScale,
 					showRelativeTime: savedState.showRelativeTime,
@@ -128,8 +128,8 @@ function GanttLargeApp() {
 
 		// There is a relevant key in local storage but there might be a chance where not all of the settings have a value. Use the retrieved value for each setting only if there is one.
 		if (typeof retrievedState !== "undefined" && retrievedState !== null) {
-			if (typeof retrievedState.timeScale !== "undefined" && retrievedState.timeScale !== null)
-				initialState.timeScaleConfig = retrievedState.timeScale;
+			if (typeof retrievedState.timeScaleConfig !== "undefined" && retrievedState.timeScaleConfig !== null)
+				initialState.timeScaleConfig = retrievedState.timeScaleConfig;
 
 			if (typeof retrievedState.viewScale !== "undefined" && retrievedState.viewScale !== null)
 				initialState.viewScale = retrievedState.viewScale;
@@ -171,7 +171,7 @@ function GanttLargeApp() {
 				columnWidths: ganttInternalParametersRef.current.columnWidths,
 				rowStatus: ganttInternalParametersRef.current.rowStatus,
 				gridWidth: ganttInternalParametersRef.current.gridWidth,
-				timeScale: stateRef.current.timeScaleConfig,
+				timeScaleConfig: stateRef.current.timeScaleConfig,
 				autoTimeScale: stateRef.current.autoTimeScale,
 				viewScale: stateRef.current.viewScale,
 				scrollLeft: ganttInternalParametersRef.current.scrollLeft,
