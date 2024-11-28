@@ -82,11 +82,11 @@ function GanttLargeApp() {
 
 		maxHeight: 780,
 
-		viewScale: 0,
+		zoom: 0,
 		timeScaleConfig: timeScaleConfigs.WeekDay,
 
 		showChartLegend: false,
-		autoTimeScale: true,
+		lockTimeScale: false,
 
 		detailLevels: [...detailLevels],
 
@@ -115,8 +115,8 @@ function GanttLargeApp() {
 					gridWidth: savedState.gridWidth,
 					scrollLeft: savedState.scrollLeft,
 					timeScaleConfig: savedState.timeScaleConfig,
-					viewScale: savedState.viewScale,
-					autoTimeScale: savedState.autoTimeScale,
+					zoom: savedState.zoom,
+					lockTimeScale: savedState.lockTimeScale,
 					showRelativeTime: savedState.showRelativeTime,
 					showPrimaryGridlines: savedState.showPrimaryGridlines,
 					showSecondaryGridlines: savedState.showSecondaryGridlines
@@ -131,11 +131,11 @@ function GanttLargeApp() {
 			if (typeof retrievedState.timeScaleConfig !== "undefined" && retrievedState.timeScaleConfig !== null)
 				initialState.timeScaleConfig = retrievedState.timeScaleConfig;
 
-			if (typeof retrievedState.viewScale !== "undefined" && retrievedState.viewScale !== null)
-				initialState.viewScale = retrievedState.viewScale;
+			if (typeof retrievedState.zoom !== "undefined" && retrievedState.zoom !== null)
+				initialState.zoom = retrievedState.zoom;
 
-			if (typeof retrievedState.autoTimeScale !== "undefined" && retrievedState.autoTimeScale !== null)
-				initialState.autoTimeScale = retrievedState.autoTimeScale;
+			if (typeof retrievedState.lockTimeScale !== "undefined" && retrievedState.lockTimeScale !== null)
+				initialState.lockTimeScale = retrievedState.lockTimeScale;
 
 			if (typeof retrievedState.showRelativeTime !== "undefined" && retrievedState.showRelativeTime !== null)
 				initialState.showRelativeTime = retrievedState.showRelativeTime;
@@ -172,8 +172,8 @@ function GanttLargeApp() {
 				rowStatus: ganttInternalParametersRef.current.rowStatus,
 				gridWidth: ganttInternalParametersRef.current.gridWidth,
 				timeScaleConfig: stateRef.current.timeScaleConfig,
-				autoTimeScale: stateRef.current.autoTimeScale,
-				viewScale: stateRef.current.viewScale,
+				lockTimeScale: stateRef.current.lockTimeScale,
+				zoom: stateRef.current.zoom,
 				scrollLeft: ganttInternalParametersRef.current.scrollLeft,
 				showRelativeTime: stateRef.current.showRelativeTime,
 				showPrimaryGridlines: stateRef.current.showPrimaryGridlines,
@@ -287,18 +287,18 @@ function GanttLargeApp() {
 	const changeScalePercentage = event => {
 		const value = +event.target.value;
 
-		if (value !== state.viewScale) {
+		if (value !== state.zoom) {
 			setState((prevState) => ({
 				...prevState,
-				viewScale: value
+				zoom: value
 			}));
 		}
 	};
 
-	const handleAutoTimeScale = () => {
+	const handleLockTimeScale = () => {
 		setState(prevState => ({
 			...prevState,
-			autoTimeScale: !state.autoTimeScale
+			lockTimeScale: !state.lockTimeScale
 		}));
 	};
 
@@ -351,12 +351,6 @@ function GanttLargeApp() {
 									<label onClick={handleShowSecondaryGridlines}>Secondary gridlines</label>
 								</div>
 
-								{/* Auto Time Scale */}
-								<div className="label-generic-control-aligned-center" style={{ marginLeft: "10px" }}>
-									<input type="checkbox" checked={state.autoTimeScale} onChange={() => { }} />
-									<label onClick={handleAutoTimeScale}>Auto time scale</label>
-								</div>
-
 								{/* Zoom */}
 								<div className="label-generic-control-aligned-center"
 									style={{ display: "flex", marginLeft: "10px", alignItems: 'end' }}>
@@ -367,9 +361,15 @@ function GanttLargeApp() {
 											min={0}
 											max={100}
 											onChange={changeScalePercentage}
-											value={state.viewScale}
+											value={state.zoom}
 										/>
 									</label>
+								</div>
+
+								{/* Lock Time Scale */}
+								<div className="label-generic-control-aligned-center" style={{ marginLeft: "10px" }}>
+									<input type="checkbox" checked={state.lockTimeScale} onChange={() => { }} />
+									<label onClick={handleLockTimeScale}>Lock time scale</label>
 								</div>
 
 								{/* Time Scale */}
@@ -409,7 +409,7 @@ function GanttLargeApp() {
 											})
 										}}
 
-										isDisabled={state.autoTimeScale}
+										isDisabled={!state.lockTimeScale}
 
 										value={{
 											value: state.timeScaleConfig.name,
@@ -461,8 +461,8 @@ function GanttLargeApp() {
 								scrollLeft={ganttInternalParametersRef.current.scrollLeft}
 								updateScrollLeft={updateScrollLeft}
 
-								viewScale={state.viewScale}
-								autoTimeScale={state.autoTimeScale}
+								zoom={state.zoom}
+								lockTimeScale={state.lockTimeScale}
 								timeScale={state.timeScaleConfig.name}
 								showPrimaryGridlines={state.showPrimaryGridlines}
 								showSecondaryGridlines={state.showSecondaryGridlines}
