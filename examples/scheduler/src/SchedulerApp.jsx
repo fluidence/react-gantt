@@ -67,11 +67,11 @@ function SchedulerApp() {
 
 		maxHeight: 600,
 
-		viewScale: 100,
+		zoom: 0,
 		timeScaleConfig: timeScaleConfigs.WeekDay,
 
 		showArrows: true,
-		autoTimeScale: true,
+		lockTimeScale: false,
 
 		loadingCompleted: false,
 
@@ -97,8 +97,8 @@ function SchedulerApp() {
 					rowStatus: savedState.rowStatus,
 					gridWidth: savedState.gridWidth,
 					timeScale: savedState.timeScale,
-					viewScale: savedState.viewScale,
-					fitToWindow: savedState.fitToWindow,
+					zoom: savedState.zoom,
+					lockTimeScale: savedState.lockTimeScale,
 					showArrows: savedState.showArrows,
 					scrollLeft: savedState.scrollLeft,
 					showRelativeTime: savedState.showRelativeTime,
@@ -115,11 +115,11 @@ function SchedulerApp() {
 			if (typeof retrievedState.timeScale !== "undefined" && retrievedState.timeScale !== null)
 				initialState.timeScaleConfig = retrievedState.timeScale;
 
-			if (typeof retrievedState.fitToWindow !== "undefined" && retrievedState.fitToWindow !== null)
-				initialState.autoTimeScale = retrievedState.fitToWindow;
+			if (typeof retrievedState.lockTimeScale !== "undefined" && retrievedState.lockTimeScale !== null)
+				initialState.lockTimeScale = retrievedState.lockTimeScale;
 
-			if (typeof retrievedState.viewScale !== "undefined" && retrievedState.viewScale !== null)
-				initialState.viewScale = retrievedState.viewScale;
+			if (typeof retrievedState.zoom !== "undefined" && retrievedState.zoom !== null)
+				initialState.zoom = retrievedState.zoom;
 
 			if (typeof retrievedState.showArrows !== "undefined" && retrievedState.showArrows !== null)
 				initialState.showArrows = retrievedState.showArrows;
@@ -158,8 +158,8 @@ function SchedulerApp() {
 				rowStatus: ganttInternalParametersRef.current.rowStatus,
 				gridWidth: ganttInternalParametersRef.current.gridWidth,
 				timeScale: stateRef.current.timeScale,
-				fitToWindow: stateRef.current.fitToWindow,
-				viewScale: stateRef.current.viewScale,
+				lockTimeScale: stateRef.current.lockTimeScale,
+				zoom: stateRef.current.zoom,
 				showOverlay: stateRef.current.showOverlay,
 				showArrows: stateRef.current.showArrows,
 				selectedChartColorBy: stateRef.current.selectedChartColorBy,
@@ -252,18 +252,18 @@ function SchedulerApp() {
 	const changeScalePercentage = event => {
 		const vewScaleLocal = +event.target.value;
 
-		if (vewScaleLocal !== state.viewScale) {
+		if (vewScaleLocal !== state.zoom) {
 			setState((prevState) => ({
 				...prevState,
-				viewScale: vewScaleLocal
+				zoom: vewScaleLocal
 			}));
 		}
 	};
 
-	const handleAutoTimeScale = () => {
+	const handleLockTimeScale = () => {
 		setState(prevState => ({
 			...prevState,
-			autoTimeScale: !state.autoTimeScale
+			lockTimeScale: !state.lockTimeScale
 		}));
 	};
 
@@ -388,12 +388,6 @@ function SchedulerApp() {
 									<label onClick={handleShowSecondaryGridlines}>Secondary gridlines</label>
 								</div>
 
-								{/* Auto Time Scale */}
-								<div className="label-generic-control-aligned-center" style={{ marginLeft: "10px" }}>
-									<input type="checkbox" checked={state.autoTimeScale} onChange={() => { }} />
-									<label onClick={handleAutoTimeScale}>Auto Time Scale</label>
-								</div>
-
 								{/* Zoom */}
 								<div className="label-generic-control-aligned-center" style={{ display: "flex", marginLeft: "10px", alignItems: 'end' }}	>
 									<label>Zoom
@@ -402,9 +396,15 @@ function SchedulerApp() {
 											min={0}
 											max={100}
 											onChange={changeScalePercentage}
-											value={state.viewScale}
+											value={state.zoom}
 										/>
 									</label>
+								</div>
+
+								{/* Lock Time Scale */}
+								<div className="label-generic-control-aligned-center" style={{ marginLeft: "10px" }}>
+									<input type="checkbox" checked={state.lockTimeScale} onChange={() => { }} />
+									<label onClick={handleLockTimeScale}>Lock time scale</label>
 								</div>
 
 								{/* Time Scale */}
@@ -444,7 +444,7 @@ function SchedulerApp() {
 											})
 										}}
 
-										isDisabled={state.autoTimeScale}
+										isDisabled={!state.lockTimeScale}
 
 										value={{
 											value: state.timeScaleConfig.name,
@@ -498,8 +498,8 @@ function SchedulerApp() {
 								barHeight={barHeight}
 								rowVerticalPadding={rowVerticalPadding}
 
-								viewScale={state.viewScale}
-								autoTimeScale={state.autoTimeScale}
+								zoom={state.zoom}
+								lockTimeScale={state.lockTimeScale}
 								timeScale={state.timeScaleConfig.name}
 								showPrimaryGridlines={state.showPrimaryGridlines}
 								showSecondaryGridlines={state.showSecondaryGridlines}
