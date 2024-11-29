@@ -344,7 +344,7 @@ function SchedulerApp() {
 
 		const data = {
 			rows: rows,
-			arrows: state.arrows
+			arrows: state.data.arrows
 		}
 
 		setState((prevState)=>({
