@@ -13,8 +13,10 @@ export default defineConfig({
 		sourcemap: false,
 		rollupOptions: {
 			output: {
-				entryFileNames: 'demo3-[hash].js',
-				assetFileNames: 'demo3-[hash].[ext]',
+				// entryFileNames: 'demo3-[hash].js',
+				// assetFileNames: 'demo3-[hash].[ext]',
+				entryFileNames: 'gantt-large-demo.js',
+				assetFileNames: 'gantt-large-demo.[ext]'				
 			},
 		},
 	},

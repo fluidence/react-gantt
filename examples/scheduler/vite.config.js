@@ -13,8 +13,11 @@ export default defineConfig({
 		sourcemap: false,
 		rollupOptions: {
 			output: {
-				entryFileNames: 'scheduler-[hash].js',
-				assetFileNames: 'scheduler-[hash].[ext]',
+				// entryFileNames: 'scheduler-[hash].js',
+				// assetFileNames: 'scheduler-[hash].[ext]'
+				entryFileNames: 'scheduler-demo.js',
+				assetFileNames: 'scheduler-demo.[ext]'
+
 			},
 		},
 	},
