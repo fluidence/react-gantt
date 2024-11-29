@@ -76,7 +76,9 @@ function SchedulerApp() {
 		loadingCompleted: false,
 
 		showPrimaryGridlines: false,
-		showSecondaryGridlines: false
+		showSecondaryGridlines: false,
+
+		useUTC: false
 	};
 
 	const ganttInternalParametersRef = useRef({
@@ -102,6 +104,7 @@ function SchedulerApp() {
 					showArrows: savedState.showArrows,
 					scrollLeft: savedState.scrollLeft,
 					showRelativeTime: savedState.showRelativeTime,
+					useUTC: savedState.useUTC,
 					showPrimaryGridlines: savedState.showPrimaryGridlines,
 					showSecondaryGridlines: savedState.showSecondaryGridlines,
 				};
@@ -126,6 +129,9 @@ function SchedulerApp() {
 
 			if (typeof retrievedState.showRelativeTime !== "undefined" && retrievedState.showRelativeTime !== null)
 				initialState.showRelativeTime = retrievedState.showRelativeTime;
+
+			if (typeof retrievedState.useUTC !== "undefined" && retrievedState.useUTC !== null)
+				initialState.useUTC = retrievedState.useUTC;
 
 			if (typeof retrievedState.showPrimaryGridlines !== "undefined" && retrievedState.showPrimaryGridlines !== null)
 				initialState.showPrimaryGridlines = retrievedState.showPrimaryGridlines;
@@ -166,6 +172,7 @@ function SchedulerApp() {
 				showChartLegend: stateRef.current.showChartLegend,
 				scrollLeft: ganttInternalParametersRef.current.scrollLeft,
 				showRelativeTime: stateRef.current.showRelativeTime,
+				useUTC: stateRef.current.useUTC,
 				showPrimaryGridlines: stateRef.current.showPrimaryGridlines,
 				showSecondaryGridlines: stateRef.current.showSecondaryGridlines,
 			})
@@ -373,6 +380,30 @@ function SchedulerApp() {
 									<input type="checkbox" checked={state.showRelativeTime} onChange={() => { }} />
 									<label onClick={handleShowRelativeTime}>Show relative time</label>
 								</div>
+
+								{/* Show in UTC time */}
+								<div className={"label-generic-control-aligned-center" + (state.showRelativeTime ? " disabled" : "")} style={{ marginLeft: "10px" }}>
+									<input
+										type="checkbox"
+										checked={state.useUTC}
+										onChange={() => { }}
+									/>
+
+									<label
+										onClick={() => {
+											const useUTCLocal = !state.useUTC;
+
+											setState((prevState) => ({
+												...prevState,
+												useUTC: useUTCLocal
+											}));
+
+										}}
+									>
+										Show in UTC
+									</label>
+								</div>
+
 							</div>
 
 							<div style={{ display: "flex", paddingRight: "10px" }}>
@@ -482,6 +513,7 @@ function SchedulerApp() {
 								data={state.data}
 
 								showRelativeTime={state.showRelativeTime}
+								useUTC={state.useUTC}
 
 								columns={state.columns}
 								widths={{
