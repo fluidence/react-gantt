@@ -5,7 +5,7 @@
 #### Great for industrial production scheduling as well as regular project management.
 
 [![fluidence.net](https://img.shields.io/badge/made%20by-fluidence-yellow)](https://fluidence.net/)
-[![npm: v.1.2.0](https://img.shields.io/badge/npm-v.1.2.0-blue.svg)](https://www.npmjs.com/package/@fluidence/react-gantt)
+[![npm: v.1.2.2](https://img.shields.io/badge/npm-v.1.2.2-blue.svg)](https://www.npmjs.com/package/@fluidence/react-gantt)
 [![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ![gantt-scheduler](https://github.com/fluidence/react-gantt/blob/master/media/scheduler.png?raw=true)
@@ -232,7 +232,7 @@ Both can be saved in a ref and persisted in the local storage or the application
 **rowVerticalPadding (*number*)**: The padding above and below each row, `default: 8`.
 
 
-**zoom (*number*)**: The zoom value for the bar chart, range: 0 (fit-to-window)  -  100, `default: 0`.
+**zoom (*number*)**: The zoom value for the bar chart, range: 1 (fit-to-window)  -  100, `default: 1`.
 
 **lockTimeScale (*bool*)**: Lock timeScale to the value set in the relevant prop (by default the timescale is automatically selected according to the time range and width of the viewable area), `default: false`.
 
