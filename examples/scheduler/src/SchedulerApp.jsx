@@ -67,7 +67,7 @@ function SchedulerApp() {
 
 		maxHeight: 600,
 
-		zoom: 0,
+		zoom: 1,
 		timeScaleConfig: timeScaleConfigs.WeekDay,
 
 		showArrows: true,
@@ -393,7 +393,7 @@ function SchedulerApp() {
 									<label>Zoom
 										<input style={{ marginLeft: "5px", width: "80px" }}
 											type="range"
-											min={0}
+											min={1}
 											max={100}
 											onChange={changeScalePercentage}
 											value={state.zoom}

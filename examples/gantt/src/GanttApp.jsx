@@ -82,7 +82,7 @@ function GanttApp() {
 
 		maxHeight: 780,
 
-		zoom: 0,
+		zoom: 1,
 		timeScaleConfig: timeScaleConfigs.WeekDay,
 
 		showChartLegend: false,
@@ -358,7 +358,7 @@ function GanttApp() {
 										<input
 											style={{ marginLeft: "5px", width: "80px" }}
 											type="range"
-											min={0}
+											min={1}
 											max={100}
 											onChange={changeScalePercentage}
 											value={state.zoom}
