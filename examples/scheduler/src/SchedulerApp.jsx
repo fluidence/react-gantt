@@ -389,16 +389,15 @@ function SchedulerApp() {
 								</div>
 
 								{/* Zoom */}
-								<div className="label-generic-control-aligned-center" style={{ display: "flex", marginLeft: "10px", alignItems: 'end' }}	>
-									<label>Zoom
-										<input style={{ marginLeft: "5px", width: "80px" }}
-											type="range"
-											min={1}
-											max={100}
-											onChange={changeScalePercentage}
-											value={state.zoom}
-										/>
-									</label>
+								<div className="label-generic-control-aligned-center" style={{ display: "flex", marginLeft: "10px" }}	>
+									<label>Zoom</label>
+									<input style={{ marginLeft: "5px", width: "80px" }}
+										type="range"
+										min={1}
+										max={100}
+										onChange={changeScalePercentage}
+										value={state.zoom}
+									/>
 								</div>
 
 								{/* Lock Time Scale */}
