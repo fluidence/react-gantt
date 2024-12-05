@@ -98,7 +98,7 @@ function SchedulerApp() {
 					columnWidths: savedState.columnWidths,
 					rowStatus: savedState.rowStatus,
 					gridWidth: savedState.gridWidth,
-					timeScale: savedState.timeScale,
+					timeScaleConfig: savedState.timeScaleConfig,
 					zoom: savedState.zoom,
 					lockTimeScale: savedState.lockTimeScale,
 					showArrows: savedState.showArrows,
@@ -115,8 +115,8 @@ function SchedulerApp() {
 
 		// There is a relevant key in local storage but there might be a chance where not all of the settings have a value. Use the retrieved value for each setting only if there is one.
 		if (typeof retrievedState !== "undefined" && retrievedState !== null) {
-			if (typeof retrievedState.timeScale !== "undefined" && retrievedState.timeScale !== null)
-				initialState.timeScaleConfig = retrievedState.timeScale;
+			if (typeof retrievedState.timeScaleConfig !== "undefined" && retrievedState.timeScaleConfig !== null)
+				initialState.timeScaleConfig = retrievedState.timeScaleConfig;
 
 			if (typeof retrievedState.lockTimeScale !== "undefined" && retrievedState.lockTimeScale !== null)
 				initialState.lockTimeScale = retrievedState.lockTimeScale;
@@ -148,6 +148,7 @@ function SchedulerApp() {
 			if (typeof retrievedState.rowStatus !== "undefined" && retrievedState.rowStatus !== null)
 				ganttInternalParametersRef.current.rowStatus = retrievedState.rowStatus;
 
+			console.log("retrievedState.scrollLeft", retrievedState.scrollLeft)
 			if (typeof retrievedState.scrollLeft !== "undefined" && retrievedState.scrollLeft !== null)
 				ganttInternalParametersRef.current.scrollLeft = retrievedState.scrollLeft;
 		}
@@ -163,7 +164,7 @@ function SchedulerApp() {
 				columnWidths: ganttInternalParametersRef.current.columnWidths,
 				rowStatus: ganttInternalParametersRef.current.rowStatus,
 				gridWidth: ganttInternalParametersRef.current.gridWidth,
-				timeScale: stateRef.current.timeScale,
+				timeScaleConfig: stateRef.current.timeScaleConfig,
 				lockTimeScale: stateRef.current.lockTimeScale,
 				zoom: stateRef.current.zoom,
 				showOverlay: stateRef.current.showOverlay,
@@ -313,6 +314,7 @@ function SchedulerApp() {
 	}
 
 	const updateScrollLeft = useCallback((scrollLeft) => {
+		console.log(scrollLeft)
 		ganttInternalParametersRef.current.scrollLeft = scrollLeft;
 	}, []);
 

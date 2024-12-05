@@ -114,7 +114,7 @@ function GanttApp() {
 					rowStatus: savedState.rowStatus,
 					gridWidth: savedState.gridWidth,
 					scrollLeft: savedState.scrollLeft,
-					timeScale: savedState.timeScale,
+					timeScaleConfig: savedState.timeScaleConfig,
 					zoom: savedState.zoom,
 					lockTimeScale: savedState.lockTimeScale,
 					showRelativeTime: savedState.showRelativeTime,
@@ -128,8 +128,8 @@ function GanttApp() {
 
 		// There is a relevant key in local storage but there might be a chance where not all of the settings have a value. Use the retrieved value for each setting only if there is one.
 		if (typeof retrievedState !== "undefined" && retrievedState !== null) {
-			if (typeof retrievedState.timeScale !== "undefined" && retrievedState.timeScale !== null)
-				initialState.timeScaleConfig = retrievedState.timeScale;
+			if (typeof retrievedState.timeScaleConfig !== "undefined" && retrievedState.timeScaleConfig !== null)
+				initialState.timeScaleConfig = retrievedState.timeScaleConfig;
 
 			if (typeof retrievedState.zoom !== "undefined" && retrievedState.zoom !== null)
 				initialState.zoom = retrievedState.zoom;
@@ -362,7 +362,7 @@ function GanttApp() {
 										max={100}
 										onChange={changeScalePercentage}
 										value={state.zoom}
-									/>									
+									/>
 								</div>
 
 								{/* Lock Time Scale */}
