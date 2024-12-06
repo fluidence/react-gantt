@@ -5,7 +5,7 @@
 #### Great for industrial production scheduling as well as regular project management.
 
 [![fluidence.net](https://img.shields.io/badge/made%20by-fluidence-yellow)](https://fluidence.net/)
-[![npm: v.1.2.2](https://img.shields.io/badge/npm-v.1.2.2-blue.svg)](https://www.npmjs.com/package/@fluidence/react-gantt)
+[![npm: v.1.2.5](https://img.shields.io/badge/npm-v.1.2.5-blue.svg)](https://www.npmjs.com/package/@fluidence/react-gantt)
 [![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ![gantt-scheduler](https://github.com/fluidence/react-gantt/blob/master/media/scheduler.png?raw=true)
