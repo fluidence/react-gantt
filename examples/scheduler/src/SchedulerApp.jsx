@@ -215,8 +215,10 @@ function SchedulerApp() {
 
 	const handleShowArrows = () => {
 		const showArrowsLocal = !state.showArrows;
-		const dataLocal = state.data;
-		dataLocal.arrows = showArrowsLocal ? [...data.arrows] : []
+		const dataLocal = {
+			rows: state.data.rows,
+			arrows: showArrowsLocal ? [...data.arrows] : []
+		}
 
 		setState(prevState => ({
 			...prevState,
