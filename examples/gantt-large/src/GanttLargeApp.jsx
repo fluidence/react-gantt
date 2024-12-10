@@ -12,6 +12,15 @@ import { useConstructor } from "./hooks/useConstructor.js";
 
 const localStorageKey = "GanttLargeApp";
 
+const license = `eyJpZCI6InNvbWUtaWQtaW5kZXgtdG8tb3VyLWRhdGFiYXNlIiwiZXhwIjoiMj
+EwMDAxMDEiLCJzaWduYXR1cmUiOiJLb0VRdDNpYUdVWFF2K3hMSGNJR3hhZC93WmgvZitiQ3IvZ2NjQ
+3gzL0pydlFTOXg1bDZudkZVMm9NR3JoNHVUMjZlTnpncktVdWE2Y3BXeDhEN1RzNWJXTnRxNlRuWGV4
+aGs1Mm53aURDWlJ1bjQyUXNzRDluWkpKVjFjS1ZyTUdxVXVoT3EwMFVPWVB2RTd1eUpoclNiWk1wd1V
+uQWdOSnU4bzVlZ3ZaN21yekVZZHhCVDBuUEpNZEFOdE5VdXM2eGVqWGRsY29qcEpKQUIwbnhhT21lUn
+U3cnNxV0EvNHRQcEh0aTJHQUV1RmR4dHBtTmVubzJPajh3OWdScklCVXNSSDlIR2Z2c3NHZDdHdnlGc
+jdvMkdmVEoyQ0xkb3Q5WU9kbm5IYUZGb0tnQnlld013WXVrNWMwbFFhQ0dqZ09VbDJaWndwNFJuQ1dY
+L2lpREl4R0E9PSJ9`;
+
 function GanttLargeApp() {
 	const columns = [
 		{
@@ -445,6 +454,7 @@ function GanttLargeApp() {
 					<div className="page-body-container">
 						<div className={selectChartClass()}>
 							<Gantt
+								license={license}
 								data={state.data}
 
 								showRelativeTime={state.showRelativeTime}
