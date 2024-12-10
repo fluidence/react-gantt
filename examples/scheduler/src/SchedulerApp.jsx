@@ -78,13 +78,22 @@ function SchedulerApp() {
 		showPrimaryGridlines: false,
 		showSecondaryGridlines: false,
 
-		useUTC: false
+		useUTC: false,
+
+		rowStatus: {},
+		widthInfo: {
+			columnWidths: [],
+			gridWidth: 500,
+		},
+		scrollLeft: 0
 	};
 
 	const ganttInternalParametersRef = useRef({
 		rowStatus: {},
-		columnWidths: [],
-		gridWidth: 500,
+		widthInfo: {
+			columnWidths: [],
+			gridWidth: 500,
+		},
 		scrollLeft: 0
 	});
 
@@ -95,14 +104,13 @@ function SchedulerApp() {
 			if (typeof savedState !== "undefined" && savedState !== null) {
 				// Return updated information to be able to update component status (both state and refs) at a later stage.
 				return {
-					columnWidths: savedState.columnWidths,
 					rowStatus: savedState.rowStatus,
-					gridWidth: savedState.gridWidth,
+					widthInfo: savedState.widthInfo,
+					scrollLeft: savedState.scrollLeft,
 					timeScaleConfig: savedState.timeScaleConfig,
 					zoom: savedState.zoom,
 					lockTimeScale: savedState.lockTimeScale,
 					showArrows: savedState.showArrows,
-					scrollLeft: savedState.scrollLeft,
 					showRelativeTime: savedState.showRelativeTime,
 					useUTC: savedState.useUTC,
 					showPrimaryGridlines: savedState.showPrimaryGridlines,
@@ -139,18 +147,14 @@ function SchedulerApp() {
 			if (typeof retrievedState.showSecondaryGridlines !== "undefined" && retrievedState.showSecondaryGridlines !== null)
 				initialState.showSecondaryGridlines = retrievedState.showSecondaryGridlines;
 
-			if (typeof retrievedState.columnWidths !== "undefined" && retrievedState.columnWidths !== null)
-				ganttInternalParametersRef.current.columnWidths = retrievedState.columnWidths;
-
-			if (typeof retrievedState.gridWidth !== "undefined" && retrievedState.gridWidth !== null)
-				ganttInternalParametersRef.current.gridWidth = retrievedState.gridWidth;
+			if (typeof retrievedState.widthInfo !== "undefined" && retrievedState.widthInfo !== null)
+				initialState.widthInfo = retrievedState.widthInfo;
 
 			if (typeof retrievedState.rowStatus !== "undefined" && retrievedState.rowStatus !== null)
-				ganttInternalParametersRef.current.rowStatus = retrievedState.rowStatus;
+				initialState.rowStatus = retrievedState.rowStatus;
 
-			console.log("retrievedState.scrollLeft", retrievedState.scrollLeft)
 			if (typeof retrievedState.scrollLeft !== "undefined" && retrievedState.scrollLeft !== null)
-				ganttInternalParametersRef.current.scrollLeft = retrievedState.scrollLeft;
+				initialState.scrollLeft = retrievedState.scrollLeft;
 		}
 	});
 
@@ -161,9 +165,8 @@ function SchedulerApp() {
 	useEffect(() => {
 		const saveStateToLocalStorage = () => {
 			localStorage.setItem(localStorageKey, JSON.stringify({
-				columnWidths: ganttInternalParametersRef.current.columnWidths,
+				widthInfo: ganttInternalParametersRef.current.widthInfo,
 				rowStatus: ganttInternalParametersRef.current.rowStatus,
-				gridWidth: ganttInternalParametersRef.current.gridWidth,
 				timeScaleConfig: stateRef.current.timeScaleConfig,
 				lockTimeScale: stateRef.current.lockTimeScale,
 				zoom: stateRef.current.zoom,
@@ -207,22 +210,19 @@ function SchedulerApp() {
 	}, []);
 
 	const updateWidths = useCallback((widthInfo) => {
-		ganttInternalParametersRef.current.columnWidths = widthInfo.columnWidths;
-		ganttInternalParametersRef.current.gridWidth = widthInfo.gridWidth;
+		ganttInternalParametersRef.current.widthInfo = widthInfo;
 	}, []);
 
 	const handleShowArrows = () => {
-			const showArrowsLocal = !state.showArrows;
-			const dataLocal = {
-				rows: state.data.rows,
-				arrows: showArrowsLocal? data.arrows: []
-			};
+		const showArrowsLocal = !state.showArrows;
+		const dataLocal = state.data;
+		dataLocal.arrows = showArrowsLocal ? [...data.arrows] : []
 
-			setState(prevState => ({
-				...prevState,
-				showArrows: showArrowsLocal,
-				data: dataLocal
-			}));
+		setState(prevState => ({
+			...prevState,
+			showArrows: showArrowsLocal,
+			data: dataLocal
+		}));
 	};
 
 	const handleShowPrimaryGridlines = () => {
@@ -314,7 +314,6 @@ function SchedulerApp() {
 	}
 
 	const updateScrollLeft = useCallback((scrollLeft) => {
-		console.log(scrollLeft)
 		ganttInternalParametersRef.current.scrollLeft = scrollLeft;
 	}, []);
 
@@ -517,16 +516,13 @@ function SchedulerApp() {
 								useUTC={state.useUTC}
 
 								columns={state.columns}
-								widths={{
-									columnWidths: ganttInternalParametersRef.current.columnWidths,
-									gridWidth: ganttInternalParametersRef.current.gridWidth
-								}}
+								widths={state.widthInfo}
 								updateWidths={updateWidths}
-								rowStatus={ganttInternalParametersRef.current.rowStatus}
+								rowStatus={state.rowStatus}
 								updateRowStatus={updateRowStatus}
 
 								maxHeight={state.maxHeight}
-								scrollLeft={ganttInternalParametersRef.current.scrollLeft}
+								scrollLeft={state.scrollLeft}
 								updateScrollLeft={updateScrollLeft}
 								barHeight={barHeight}
 								rowVerticalPadding={rowVerticalPadding}

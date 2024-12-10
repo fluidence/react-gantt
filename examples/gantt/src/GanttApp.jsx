@@ -1,11 +1,11 @@
 // Imports needed for React.
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 
 // Imports for external components / functionality.
-import Gantt from "@fluidence/react-gantt";
+import Select from "react-select";
 
 // Imports for our components / functionality.
-import Select from "react-select";
+import Gantt from "@fluidence/react-gantt";
 import { DropdownMenu } from "./Components/DropdownMenu.jsx";
 import data from "./data/data.json";
 import { useConstructor } from "./hooks/useConstructor.js";
@@ -93,13 +93,22 @@ function GanttApp() {
 		loadingCompleted: false,
 
 		showPrimaryGridlines: false,
-		showSecondaryGridlines: false
+		showSecondaryGridlines: false,
+
+		rowStatus: {},
+		widthInfo: {
+			columnWidths: [],
+			gridWidth: 400,
+		},
+		scrollLeft: 0
 	};
 
 	const ganttInternalParametersRef = useRef({
-		rowStatus: null,
-		columnWidths: [],
-		gridWidth: 400,
+		rowStatus: {},
+		widthInfo: {
+			columnWidths: [],
+			gridWidth: 400,
+		},
 		scrollLeft: 0
 	});
 
@@ -110,9 +119,8 @@ function GanttApp() {
 			if (typeof savedState !== "undefined" && savedState !== null) {
 				// Return updated information to be able to update component status (both state and refs) at a later stage.
 				return {
-					columnWidths: savedState.columnWidths,
+					widthInfo: savedState.widthInfo,
 					rowStatus: savedState.rowStatus,
-					gridWidth: savedState.gridWidth,
 					scrollLeft: savedState.scrollLeft,
 					timeScaleConfig: savedState.timeScaleConfig,
 					zoom: savedState.zoom,
@@ -146,17 +154,14 @@ function GanttApp() {
 			if (typeof retrievedState.showSecondaryGridlines !== "undefined" && retrievedState.showSecondaryGridlines !== null)
 				initialState.showSecondaryGridlines = retrievedState.showSecondaryGridlines;
 
-			if (typeof retrievedState.columnWidths !== "undefined" && retrievedState.columnWidths !== null)
-				ganttInternalParametersRef.current.columnWidths = retrievedState.columnWidths;
+			if (typeof retrievedState.widthInfo !== "undefined" && retrievedState.widthInfo !== null)
+				initialState.widthInfo = retrievedState.widthInfo;
 
 			if (typeof retrievedState.rowStatus !== "undefined" && retrievedState.rowStatus !== null)
-				ganttInternalParametersRef.current.rowStatus = retrievedState.rowStatus;
-
-			if (typeof retrievedState.gridWidth !== "undefined" && retrievedState.gridWidth !== null)
-				ganttInternalParametersRef.current.gridWidth = retrievedState.gridWidth;
+				initialState.rowStatus = retrievedState.rowStatus;
 
 			if (typeof retrievedState.scrollLeft !== "undefined" && retrievedState.scrollLeft !== null)
-				ganttInternalParametersRef.current.scrollLeft = retrievedState.scrollLeft;
+				initialState.scrollLeft = retrievedState.scrollLeft;
 		}
 	});
 
@@ -168,9 +173,8 @@ function GanttApp() {
 		const saveToLocalStorage = () => {
 			// Save to localstorage.
 			localStorage.setItem(localStorageKey, JSON.stringify({
-				columnWidths: ganttInternalParametersRef.current.columnWidths,
+				widthInfo: ganttInternalParametersRef.current.widthInfo,
 				rowStatus: ganttInternalParametersRef.current.rowStatus,
-				gridWidth: ganttInternalParametersRef.current.gridWidth,
 				timeScaleConfig: stateRef.current.timeScaleConfig,
 				lockTimeScale: stateRef.current.lockTimeScale,
 				zoom: stateRef.current.zoom,
@@ -202,8 +206,7 @@ function GanttApp() {
 	}, [state.showRelativeTime])
 
 	const updateWidths = useCallback((widthInfo) => {
-		ganttInternalParametersRef.current.columnWidths = widthInfo.columnWidths;
-		ganttInternalParametersRef.current.gridWidth = widthInfo.gridWidth;
+		ganttInternalParametersRef.current.widthInfo = widthInfo;
 	}, []);
 
 	const updateRowStatus = useCallback((rowStatus) => {
@@ -231,10 +234,9 @@ function GanttApp() {
 
 		const rowStatusLocal = getRowStatus(state.data.rows);
 
-		ganttInternalParametersRef.current.rowStatus = rowStatusLocal;
-		// force update
 		setState((prevState) => ({
-			...prevState
+			...prevState,
+			rowStatus: rowStatusLocal
 		}));
 	};
 
@@ -376,7 +378,7 @@ function GanttApp() {
 									<label>Time scale:</label>
 
 									<Select
-										name="selectHeaderInterval"
+										name="selectTimeScale"
 										styles={{
 											control: (baseStyles, state) => ({
 												...baseStyles,
@@ -448,16 +450,13 @@ function GanttApp() {
 								showRelativeTime={state.showRelativeTime}
 
 								columns={state.columns}
-								widths={{
-									columnWidths: ganttInternalParametersRef.current.columnWidths,
-									gridWidth: ganttInternalParametersRef.current.gridWidth
-								}}
+								widths={state.widthInfo}
 								updateWidths={updateWidths}
-								rowStatus={ganttInternalParametersRef.current.rowStatus}
+								rowStatus={state.rowStatus}
 								updateRowStatus={updateRowStatus}
 
 								maxHeight={state.maxHeight}
-								scrollLeft={ganttInternalParametersRef.current.scrollLeft}
+								scrollLeft={state.scrollLeft}
 								updateScrollLeft={updateScrollLeft}
 
 								zoom={state.zoom}
