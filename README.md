@@ -5,7 +5,7 @@
 #### Great for industrial production scheduling as well as regular project management.
 
 [![fluidence.net](https://img.shields.io/badge/made%20by-fluidence-yellow)](https://fluidence.net/)
-[![npm: v.1.2.11](https://img.shields.io/badge/npm-v.1.2.11-blue.svg)](https://www.npmjs.com/package/@fluidence/react-gantt)
+[![npm: v.1.2.12](https://img.shields.io/badge/npm-v.1.2.12-blue.svg)](https://www.npmjs.com/package/@fluidence/react-gantt)
 [![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ![gantt-scheduler](https://github.com/fluidence/react-gantt/blob/master/media/scheduler.png?raw=true)
@@ -16,9 +16,10 @@
 - Gantt mode: Displays tasks in collapsible, hierarchical rows
 - Drag-and-drop: Horizontal for shifting tasks in time, and vertical for switching task resources (supports resource compatibility groups)
 - Dependency arrows: Finish-to-start, start-to-start, start-to-finish, finish-to-finish
-- Relative times display: Header can be displayed in relative time from the start
+- UTC times display: Timescale can be displayed in local or UTC time zone
+- Relative times display: Timescale can be displayed in absolute or relative time from the chart start
 - Continuous zoom level: Chart can be zoomed in up to 100x the default zoom level
-- Auto timescale: Optional automatic timescale selection, according to the time range and width of the viewable area
+- Auto timescale: Automatic timescale selection, according to the time range and width of the viewable area
 - UI state saving: Column widths, scroll position etc. can be saved and restored to/from the local storage or back-end server at reload
 
 
@@ -113,10 +114,7 @@ return (
 
 ## API
 
-### Unless otherwise stated each prop below is required
-
 **license**: A valid license is required for the Gantt to work properly. The component will work in demo mode until a license is provided.
-
 
 **data (*array*)**: Chart row data. This array contains objects of the following format:
 ```jsonc
@@ -138,6 +136,12 @@ The bars array contains object of the following format:
                                           possible values:
                                           {“Normal”, “Background”, “Overlay”},
   isDraggable (bool):                     can this bar be dragged, default: false,
+  droppableRowIds (array | "*"):          An array of row ids that this bar can be
+                                          dropped to or the "*" character for all
+                                          rows (bars can always be dragged within
+                                          their originating row), default: []
+                                          (bars can be dragged only within their
+                                          originating row),
   startDate (date object or date string): bar start,
   endDate (date object or date string):   bar end,
   barStyle (object):                      inline bar styling, default: {},
@@ -149,7 +153,8 @@ The bars array contains object of the following format:
         borderRadius (string):     border radius, default: “0px”,
         backgroundColor (string):  background color, default: “orange”,
         color (string):            foreground color, default: “white”,
-        cursor (string):           bar cursor, default: “default”
+        cursor (string):           bar cursor, default: “default”,
+        pointerEvents (string):    pointer events, default:"auto"
       }
 }
 ```
