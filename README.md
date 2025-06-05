@@ -117,7 +117,7 @@ return (
 **license**: A valid license is required for the Gantt to work properly. The component will work in demo mode until a license is provided.
 
 **data (*array*)**: Chart row data. This array contains objects of the following format:
-```jsonc
+```js
 {
   id (string):          row identifier,
   bars (array):         row bars,
@@ -161,7 +161,7 @@ The bars array contains object of the following format:
 <br/>
 
 **arrows (*array*)**: Chart dependency arrows, `default: []`. This array contains objects of the  following format:
-```jsonc
+```js
 {
   sourceBarId (number):      the source bar id,
   sourceEdge (string):       arrow starts at start or finish of source bar,
@@ -182,7 +182,7 @@ The bars array contains object of the following format:
 **useUTC (*bool*)**: Displays UTC times, `default: false` (i.e. local times).
 
 **columns (*array*)**: The grid columns. An array of objects of the following format:
-```jsonc
+```js
 {
   text (string):          column header text,
   minWidth (number):      minimum column width,
@@ -195,7 +195,7 @@ The bars array contains object of the following format:
 <br/>
 
 **widths (*object*)**: The grid columns widths. This is normally used to save/load column widths to the local storage or the application back end and set to a ref value initialized as an empty object. The updateWidths function (see below) updates the ref whenever columns are resized by the user without causing a render. Please see the demos for sample code. The widths object is in the following format:
-```jsonc
+```js
 {
   columnWidths (array):     initial grid column widths for using when persisting
                             column widths to the local storage or the application
@@ -209,7 +209,7 @@ The bars array contains object of the following format:
 <br/>
 
 **updateWidths (*function(widthInfo)*)**: A function accepting a widthInfo object, executing when either a column width or grid width changes.  The **widthInfo** object includes the following:
-```jsonc
+```js
   columnWidths (array):   the widths of each displayed column,
   gridWidth (number):     the width of the grid
 ```
@@ -217,7 +217,7 @@ Both can be saved in a ref and persisted in the local storage or the application
 <br/>
 
 **rowStatus (*object dictionary*)**: Holds row expanded information. Each key corresponds to the id of the row and each value corresponds to the status of the row. The dictionary value is an object of the following format:
-```jsonc
+```js
 {
   isExpanded (bool): row is expanded
 }
@@ -243,7 +243,7 @@ Both can be saved in a ref and persisted in the local storage or the application
 
 **timeScale (*string*)**: The time scale for the horizontal axis (ignored if the lockTimeScale is set to `false`). Consist of two rows: the first row displays the primary interval and the second row displays the secondary interval. The available options are:
 
-```jsonc
+```js
 {
   “HourTenmin”,
   “DayHour”,
@@ -259,7 +259,7 @@ Both can be saved in a ref and persisted in the local storage or the application
 **showSecondaryGridlines (*bool*)**: Enables secondary grid lines, `default: false`.
 
 **handleBarClick (*function(barClickInfo)*)**: A function accepting a barClickInfo object, executing when any bar in the main area is clicked. The **barClickInfo** object includes the following:
-```jsonc
+```js
   bar (object):       bar object,
   row (object):       row object,
   clickDate (date):   the chart clicked date on the horizontal axis.
@@ -270,7 +270,7 @@ Both can be saved in a ref and persisted in the local storage or the application
 <br/>
 
 **handleBarRightClick (*function(barRightClickInfo)*)**: A function accepting a barRightClickInfo object, executing when any bar in the main area is right-clicked. The **barRightClickInfo** object includes the following:
-```jsonc
+```js
   bar (object):       bar object,
   row (object):       row object,
   clickDate (date):   the chart clicked date on the horizontal axis.
@@ -283,7 +283,7 @@ Both can be saved in a ref and persisted in the local storage or the application
 **handleRowClick (*function(row)*)**: A function accepting a row parameter, executing when the first grid column of a row is clicked. Returns the row object for that row.
 
 **handleBarDrop (*function(dropInfo)*)**: A function accepting a dropInfo object, executing  when a bar is dropped into a new row. The **dropInfo** object includes the following:
-```jsonc
+```js
 {
   initialPositionX:  initial bar time,
   finalPositionX:    final bar time,
