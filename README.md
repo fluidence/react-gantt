@@ -128,7 +128,7 @@ return (
 <br/>
 
 The bars array contains object of the following format:
-```jsonc
+```js
 {
   id (string):                            bar identifier
   text (string):                          bar display text,
