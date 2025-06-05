@@ -5,7 +5,7 @@
 #### Great for industrial production scheduling as well as regular project management.
 
 [![fluidence.net](https://img.shields.io/badge/made%20by-fluidence-yellow)](https://fluidence.net/)
-[![npm: v.1.2.12](https://img.shields.io/badge/npm-v.1.2.12-blue.svg)](https://www.npmjs.com/package/@fluidence/react-gantt)
+[![npm: v.1.4.0](https://img.shields.io/badge/npm-v.1.4.0-blue.svg)](https://www.npmjs.com/package/@fluidence/react-gantt)
 [![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ![gantt-scheduler](https://github.com/fluidence/react-gantt/blob/master/media/scheduler.png?raw=true)
@@ -125,6 +125,7 @@ return (
   gridValues (array):   grid column values, default: []
 }
 ```
+The bars array can be either an array containing the arrays of bars ([ [..], [..], …]) or a single array ([ {}, …]) containing the bars. When using the first case (array of arrays) we can have multiple layers of bars where the first of the arrays is the topmost actual layer and the other arrays are the base line layers arranged from the topmost to the bottom. When using the second case there is only one layer of bars.
 <br/>
 
 The bars array contains object of the following format:
@@ -156,6 +157,9 @@ The bars array contains object of the following format:
         cursor (string):           bar cursor, default: “default”,
         pointerEvents (string):    pointer events, default:"auto"
       }
+   groupId (string or number): The group this bar belongs. Many bars can belong to
+                               the same group. Then bars within same group can
+                               be moved horizontally all together, default: null
 }
 ```
 <br/>
@@ -234,6 +238,10 @@ Both can be saved in a ref and persisted in the local storage or the application
 
 **barHeight (*number*)**: The bar height excluding any vertical padding, `default: 35px`.
 
+**baseLineBarHeight (*number*)**: the base line bars height excluding any vertical padding, `default: 20px`.
+
+**baseLineLayerVerticalOffest (*number*)**: the base line layers vertical offset, `default: 20px`.
+
 **rowVerticalPadding (*number*)**: The padding above and below each row, `default: 8`.
 
 
@@ -257,6 +265,10 @@ Both can be saved in a ref and persisted in the local storage or the application
 **showPrimaryGridlines (*bool*)**: Enables primary grid lines, `default: false`.
 
 **showSecondaryGridlines (*bool*)**: Enables secondary grid lines, `default: false`.
+
+**timelineTime (*date object | date string*)**: The vertical line representing current time, `default: null`.
+
+**timelineText (*string*)**: The text displayed with the timeline, `default: null`.
 
 **handleBarClick (*function(barClickInfo)*)**: A function accepting a barClickInfo object, executing when any bar in the main area is clicked. The **barClickInfo** object includes the following:
 ```js
@@ -371,6 +383,21 @@ A list of the css classes that determine the styles of the various chart element
   font-size: 14px;
   line-height: 2;
   background: #f9f9f9;
+}
+
+.timeline-label {
+    height: 20px;
+    background: #ff00004d;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-left: 3px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.time-line {
+    background-color: #ff00004d;
 }
 ```
 

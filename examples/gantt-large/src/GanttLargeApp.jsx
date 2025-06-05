@@ -445,7 +445,7 @@ function GanttLargeApp() {
 					<div className="page-body-container">
 						<div className={selectChartClass()}>
 							<Gantt
-								data={state.data}
+								data={state.data.rows}
 
 								showRelativeTime={state.showRelativeTime}
 

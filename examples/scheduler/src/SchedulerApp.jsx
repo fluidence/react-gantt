@@ -85,7 +85,10 @@ function SchedulerApp() {
 			columnWidths: [],
 			gridWidth: 500,
 		},
-		scrollLeft: 0
+		scrollLeft: 0,
+
+		timelineTime: "2023-03-28T06:26:40.000Z",
+		timelineText: "Current time"
 	};
 
 	const ganttInternalParametersRef = useRef({
@@ -398,7 +401,7 @@ function SchedulerApp() {
 
 											setState((prevState) => ({
 												...prevState,
-												useUTC: useUTCLocal
+												useUTC: useUTCLocal,
 											}));
 
 										}}
@@ -512,7 +515,9 @@ function SchedulerApp() {
 					<div className="page-body-container">
 						<div className="gantt-chart" ref={ganttRef}>
 							<Gantt
-								data={state.data}
+								// Second data row contain base line layer
+								data={state.data.rows}
+								arrows={state.data.arrows}
 
 								showRelativeTime={state.showRelativeTime}
 								useUTC={state.useUTC}
@@ -539,6 +544,9 @@ function SchedulerApp() {
 								handleBarRightClick={handleBarRightClick}
 								handleRowClick={handleRowClick}
 								handleBarDrop={handleBarDrop}
+
+								timelineTime={state.timelineTime}
+								timelineText={state.timelineText}
 							/>
 						</div>
 

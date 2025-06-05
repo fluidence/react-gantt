@@ -24,6 +24,26 @@
           ]
         },
         {
+          "id": 1,
+          "text": "Clean Tank 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-24T02:30:00.000Z",
+          "endDate": "2023-03-24T04:00:00.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,255,148,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "grab"
+          },
+          "droppableRowIds": [
+            1
+          ]
+        },
+        {
           "id": 2,
           "text": "Clean Tank Store 500mL",
           "type": "Normal",
@@ -345,6 +365,7 @@
     {
       "id": 2,
       "bars": [
+        [
         {
           "id": 18,
           "text": "Fill Bags 500mL",
@@ -847,6 +868,496 @@
           }
         }
       ],
+      [
+        {
+          "id": 218,
+          "text": "Fill Bags 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-24T02:30:00.000Z",
+          "endDate": "2023-03-24T13:36:40.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,255,148,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 1
+        },
+        {
+          "id": 219,
+          "text": "Clean Filler 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-24T13:36:40.000Z",
+          "endDate": "2023-03-24T15:06:40.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,255,148,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 1
+        },
+        {
+          "id": 220,
+          "text": "",
+          "type": "Overlay",
+          "startDate": "2023-03-24T02:30:00.000Z",
+          "endDate": "2023-03-24T15:06:40.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 2,
+            "borderStyle": "dotted",
+            "borderColor": "blue",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "grab"
+          },
+          "groupId": 1,
+          "droppableRowIds": [
+            2
+          ]
+        },
+        {
+          "id": 221,
+          "text": "",
+          "type": "Normal",
+          "startDate": "2023-03-24T15:36:40.000Z",
+          "endDate": "2023-03-27T02:43:20.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(70,90,255,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 2
+        },
+        {
+          "id": 222,
+          "text": "",
+          "type": "Normal",
+          "startDate": "2023-03-25T00:00:00.000Z",
+          "endDate": "2023-03-27T00:00:00.000Z",
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "transparent",
+            "borderRadius": "0px",
+            "backgroundColor": "rgb(255,255,255)"
+          },
+          "groupId": 2
+        },
+        {
+          "id": 223,
+          "text": "Fill Bags 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-24T15:36:40.000Z",
+          "endDate": "2023-03-27T02:43:20.000Z",
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgb(0,0,0)"
+          },
+          "groupId": 2
+        },
+        {
+          "id": 224,
+          "text": "Clean Filler 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-27T02:43:20.000Z",
+          "endDate": "2023-03-27T04:13:20.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(70,90,255,1)",
+            "color": "rgba(255,255,255,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 2
+        },
+        {
+          "id": 225,
+          "text": "",
+          "type": "Overlay",
+          "startDate": "2023-03-24T15:36:40.000Z",
+          "endDate": "2023-03-27T04:13:20.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 2,
+            "borderStyle": "dotted",
+            "borderColor": "blue",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgb(0,0,0)",
+            "cursor": "grab"
+          },
+          "groupId": 2,
+          "droppableRowIds": [
+            2
+          ]
+        },
+        {
+          "id": 226,
+          "text": "Fill Bags 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-27T04:43:20.000Z",
+          "endDate": "2023-03-27T15:50:00.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,76,76,1)",
+            "color": "rgba(255,255,255,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 3
+        },
+        {
+          "id": 227,
+          "text": "Clean Filler 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-27T15:50:00.000Z",
+          "endDate": "2023-03-27T17:20:00.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,76,76,1)",
+            "color": "rgba(255,255,255,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 3
+        },
+        {
+          "id": 228,
+          "text": "",
+          "type": "Overlay",
+          "startDate": "2023-03-27T04:43:20.000Z",
+          "endDate": "2023-03-27T17:20:00.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 2,
+            "borderStyle": "dotted",
+            "borderColor": "blue",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgba(255,255,255,1)",
+            "cursor": "grab"
+          },
+          "groupId": 3,
+          "droppableRowIds": [
+            2
+          ]
+        },
+        {
+          "id": 229,
+          "text": "Fill Bags 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-27T17:50:00.000Z",
+          "endDate": "2023-03-28T04:56:40.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(192,192,175,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 4
+        },
+        {
+          "id": 230,
+          "text": "Clean Filler 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-28T04:56:40.000Z",
+          "endDate": "2023-03-28T06:26:40.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(192,192,175,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 4
+        },
+        {
+          "id": 231,
+          "text": "",
+          "type": "Overlay",
+          "startDate": "2023-03-27T17:50:00.000Z",
+          "endDate": "2023-03-28T06:26:40.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 2,
+            "borderStyle": "dotted",
+            "borderColor": "blue",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "grab"
+          },
+          "groupId": 4,
+          "droppableRowIds": [
+            2
+          ]
+        },
+        {
+          "id": 232,
+          "text": "Fill Bags 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-28T06:56:40.000Z",
+          "endDate": "2023-03-28T18:03:20.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,228,174,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 5
+        },
+        {
+          "id": 233,
+          "text": "Clean Filler 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-28T18:03:20.000Z",
+          "endDate": "2023-03-28T19:33:20.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,228,174,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 5
+        },
+        {
+          "id": 234,
+          "text": "",
+          "type": "Overlay",
+          "startDate": "2023-03-28T06:56:40.000Z",
+          "endDate": "2023-03-28T19:33:20.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 2,
+            "borderStyle": "dotted",
+            "borderColor": "blue",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "grab"
+          },
+          "groupId": 5,
+          "droppableRowIds": [
+            2
+          ]
+        },
+        {
+          "id": 235,
+          "text": "Fill Bags 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-28T20:03:20.000Z",
+          "endDate": "2023-03-29T07:10:00.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,40,255,1)",
+            "color": "rgba(255,255,255,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 6
+        },
+        {
+          "id": 236,
+          "text": "Clean Filler 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-29T07:10:00.000Z",
+          "endDate": "2023-03-29T08:40:00.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,40,255,1)",
+            "color": "rgba(255,255,255,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 6
+        },
+        {
+          "id": 237,
+          "text": "",
+          "type": "Overlay",
+          "startDate": "2023-03-28T20:03:20.000Z",
+          "endDate": "2023-03-29T08:40:00.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 2,
+            "borderStyle": "dotted",
+            "borderColor": "blue",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgba(255,255,255,1)",
+            "cursor": "grab"
+          },
+          "groupId": 6,
+          "droppableRowIds": [
+            2
+          ]
+        },
+        {
+          "id": 238,
+          "text": "Fill Bags 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-29T09:10:00.000Z",
+          "endDate": "2023-03-29T20:16:40.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(76,255,255,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 7
+        },
+        {
+          "id": 239,
+          "text": "Clean Filler 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-29T20:16:40.000Z",
+          "endDate": "2023-03-29T21:46:40.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(76,255,255,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 7
+        },
+        {
+          "id": 240,
+          "text": "",
+          "type": "Overlay",
+          "startDate": "2023-03-29T09:10:00.000Z",
+          "endDate": "2023-03-29T21:46:40.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 2,
+            "borderStyle": "dotted",
+            "borderColor": "blue",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "grab"
+          },
+          "groupId": 7,
+          "droppableRowIds": [
+            2
+          ]
+        },
+        {
+          "id": 241,
+          "text": "Fill Bags 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-29T22:16:40.000Z",
+          "endDate": "2023-03-30T09:23:20.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,129,112,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 8
+        },
+        {
+          "id": 242,
+          "text": "Clean Filler 500mL",
+          "type": "Normal",
+          "startDate": "2023-03-30T09:23:20.000Z",
+          "endDate": "2023-03-30T10:53:20.000Z",
+          "isDraggable": false,
+          "barStyle": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "black",
+            "borderRadius": "3px",
+            "backgroundColor": "rgba(255,129,112,1)",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "deafult"
+          },
+          "groupId": 8
+        },
+        {
+          "id": 243,
+          "text": "",
+          "type": "Overlay",
+          "startDate": "2023-03-29T22:16:40.000Z",
+          "endDate": "2023-03-30T10:53:20.000Z",
+          "isDraggable": true,
+          "barStyle": {
+            "borderWidth": 2,
+            "borderStyle": "dotted",
+            "borderColor": "blue",
+            "borderRadius": "3px",
+            "backgroundColor": "transparent",
+            "color": "rgba(0,0,0,1)",
+            "cursor": "grab"
+          },
+          "groupId": 8,
+          "droppableRowIds": [
+            2
+          ]
+        }
+      ]
+    ],
       "gridValues": [
         "Filler-3*"
       ]
